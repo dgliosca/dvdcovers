@@ -1,6 +1,10 @@
+import org.junit.Test
+
 class DVDCoverCollector {
 
-    @Test fun `can get a cover`() {
+    @Test
+    fun `can get a cover`() {
+
 
     }
 }
