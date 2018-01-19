@@ -20,9 +20,10 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    compile group: "org.http4k", name: "http4k-core", version: "3.12.0"
-    compile group: "org.http4k", name: "http4k-server-jetty", version: "3.12.0"
-    compile group: "org.http4k", name: "http4k-client-apache", version: "3.12.0"
+    compile "org.http4k:http4k-core:3.12.0"
+    compile "org.http4k:http4k-server-jetty:3.12.0"
+    compile "org.http4k:http4k-client-apache:3.12.0"
+    compile "org.jsoup:jsoup:1.11.2"
 
     testCompile 'junit:junit:4.12'
     testCompile 'com.natpryce:hamkrest:1.1.0.0'
