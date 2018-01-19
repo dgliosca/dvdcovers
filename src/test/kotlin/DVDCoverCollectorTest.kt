@@ -11,13 +11,8 @@ class DVDCoverCollectorTest {
     @Ignore
     @Test fun `can get a cover`() {
         val movie = "avatar"
-        val request = Request(GET, "http://dvdcover.com/search/$movie")
-
-        val client = ApacheClient()
-
-        val response = client(request)
-
-        val actualImage = response.body.stream
+        val dvdCoverCollector = DVDCoverCollector()
+        val actualImage: InputStream = dvdCoverCollector.coverFor(movie)
         val expectedImage = javaClass.classLoader.getResourceAsStream("avatar.jpg")
 
         assertBinaryContentIsTheSame(actualImage, expectedImage)
