@@ -1,10 +1,7 @@
 import junit.framework.Assert.fail
-import org.http4k.client.ApacheClient
-import org.http4k.core.Method.GET
-import org.http4k.core.Request
 import org.junit.Ignore
 import org.junit.Test
-import java.io.*
+import java.io.InputStream
 
 class DVDCoverCollectorTest {
 
@@ -12,7 +9,7 @@ class DVDCoverCollectorTest {
     @Test fun `can get a cover`() {
         val movie = "avatar"
         val dvdCoverCollector = DVDCoverCollector()
-        val actualImage: InputStream = dvdCoverCollector.coverFor(movie)
+        val actualImage = dvdCoverCollector.coverFor(movie)
         val expectedImage = javaClass.classLoader.getResourceAsStream("avatar.jpg")
 
         assertBinaryContentIsTheSame(actualImage, expectedImage)
