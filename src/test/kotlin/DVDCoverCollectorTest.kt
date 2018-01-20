@@ -1,3 +1,5 @@
+import com.natpryce.hamkrest.assertion.assertThat
+import com.natpryce.hamkrest.equalTo
 import junit.framework.Assert.fail
 import org.junit.Test
 import java.io.InputStream
@@ -11,6 +13,16 @@ class DVDCoverCollectorTest {
         val expectedImage = javaClass.classLoader.getResourceAsStream("avatar.jpg")
 
         assertBinaryContentIsTheSame(actualImage, expectedImage)
+    }
+
+    @Test fun `can read movies from file`() {
+
+        val dvdCoverCollector = DVDCoverCollector()
+        val inputFile = javaClass.classLoader.getResourceAsStream("fileMovie.txt")
+        val movies: List<String> = dvdCoverCollector.readMoviesFromFile(inputFile)
+
+        assertThat(movies[0], equalTo("Fight Club"))
+        assertThat(movies[1], equalTo("Independence Day"))
     }
 
     private fun assertBinaryContentIsTheSame(binaryInputA: InputStream, binaryInputB: InputStream): Boolean {

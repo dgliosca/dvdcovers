@@ -7,7 +7,7 @@ import org.http4k.core.Method
 import org.http4k.core.Method.GET
 import org.http4k.core.Request
 import org.http4k.urlEncoded
-import java.io.InputStream
+import java.io.*
 
 class DVDCoverCollector {
     val client = ApacheClient(HttpClients.custom()
@@ -29,5 +29,9 @@ class DVDCoverCollector {
         val image = Request(GET, imageLink.toASCIIString())
         val imageResponse = client(image)
         return imageResponse.body.stream
+    }
+
+    fun readMoviesFromFile(inputStream: InputStream): List<String> {
+        return inputStream.use { it.bufferedReader().readLines() }
     }
 }
