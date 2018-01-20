@@ -8,6 +8,9 @@ import org.http4k.core.Method.GET
 import org.http4k.core.Request
 import org.http4k.urlEncoded
 import java.io.*
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
 
 class DVDCoverCollector {
     val client = ApacheClient(HttpClients.custom()
@@ -33,5 +36,17 @@ class DVDCoverCollector {
 
     fun readMoviesFromFile(inputStream: InputStream): List<String> {
         return inputStream.use { it.bufferedReader().readLines() }
+    }
+
+    fun downloadCover(movie: String, downloadFolder: String) {
+        val currentPath = Paths.get(System.getProperty("user.dir")).toAbsolutePath()
+        println("currentPath = ${currentPath}")
+        val targetFolder = currentPath.resolve(downloadFolder)
+        println("targetFolder = ${targetFolder}")
+        if (!Files.exists(targetFolder)) {
+            Files.createDirectory(targetFolder)
+        }
+        val stream = coverFor(movie)
+        Files.copy(stream, targetFolder.resolve("$movie.jpg"))
     }
 }
