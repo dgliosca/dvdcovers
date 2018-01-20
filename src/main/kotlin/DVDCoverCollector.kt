@@ -6,6 +6,7 @@ import org.http4k.client.ApacheClient
 import org.http4k.core.Method
 import org.http4k.core.Method.GET
 import org.http4k.core.Request
+import org.http4k.urlEncoded
 import java.io.InputStream
 
 class DVDCoverCollector {
@@ -16,9 +17,17 @@ class DVDCoverCollector {
                     .build()).build())
 
     fun coverFor(film: String): InputStream {
-        val request = Request(GET, "http://dvdcover.com/search/$film")
-        val response = client(request)
-        println(response)
-        return response.body.stream
+        val searchRequest = Request(GET, "http://dvdcover.com/search/${film.urlEncoded()}")
+        val response = client(searchRequest)
+        val pageParser = PageParser()
+
+        val linkAndTitle = pageParser.linkAndTitle(response.body.stream, "UTF8", "http://dvdcover.com/")
+        val imageRequest = Request(GET, linkAndTitle.link.toASCIIString())
+        val responseImageRequest = client(imageRequest)
+        val imageLink = pageParser.linkImage(responseImageRequest.body.stream, "UTF8", "http://dvdcover.com/")
+        println("imageLink = ${imageLink}")
+        val image = Request(GET, imageLink.toASCIIString())
+        val imageResponse = client(image)
+        return imageResponse.body.stream
     }
 }

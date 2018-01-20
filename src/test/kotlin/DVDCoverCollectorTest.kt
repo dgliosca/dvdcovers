@@ -1,11 +1,9 @@
 import junit.framework.Assert.fail
-import org.junit.Ignore
 import org.junit.Test
 import java.io.InputStream
 
 class DVDCoverCollectorTest {
 
-    @Ignore
     @Test fun `can get a cover`() {
         val movie = "avatar"
         val dvdCoverCollector = DVDCoverCollector()

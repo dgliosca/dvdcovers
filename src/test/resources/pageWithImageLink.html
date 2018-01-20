@@ -1,0 +1,2797 @@
+
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head><meta charset="UTF-8">
+    <script data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.evt={};__ez.ck={};__ez.dot={};__ez.template={};__ez.template.isOrig=true;__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.ck.get=function(n,e){null!==e&&(n=n+"_"+e);for(var t=n+"=",r=decodeURIComponent(document.cookie),o=r.split(";"),i=0;i<o.length;i++){for(var u=o[i];" "===u.charAt(0);)u=u.substring(1);if(0===u.indexOf(t))return u.substring(t.length,u.length)}return""};__ez.queue=function(){function g(a,b,g,h,j,k,l,m){var n=new f.file(a,b,g,h,j,k,l);!0===m?d[a]=n:e[a]=n,c[a]=n,i(n)}function h(a,g,h,j,k,l,m,n,o){!0===l&&(a=a+"_"+b++);var p=new f.func(a,g,h,j,k,m,n);!0===o?d[a]=p:e[a]=p,c[a]=p,i(p)}function i(a){!0!==j(a)&&a.process()}function j(a){if(a.blockedBy instanceof Array)for(var b=0;b<a.blockedBy.length;b++){var d=a.blockedBy[b];if(!1===c.hasOwnProperty(d))return k(a.name+" blocked = "+d),!0;if(!0===a.proceedIfError&&!0===c[d].isError)return!1;if(!1===c[d].isComplete)return k(a.name+" blocked = "+d),!0}return!1}function k(a){var b=window.location.href,c=new RegExp("[?&]ezq=([^&#]*)","i"),d=c.exec(b);"1"===(d?d[1]:null)&&console.debug(a)}function l(){++a>20||(k("let's go"),m(d),m(e))}function m(a){for(var b in a)if(!1!==a.hasOwnProperty(b)){var c=a[b];!0===c.isComplete||j(c)||!0===c.isInitialized||!0===c.isError?!0===c.isError?k(c.name+": error"):!0===c.isComplete?k(c.name+": complete already"):!0===c.isInitialized&&k(c.name+": initialized already"):c.process()}}var a=0,b=0,c=[],d=[],e=[],f={func:function(a,b,d,e,f,g,h){var i=this;this.name=a,this.funcName=b,this.parameters=null===d?null:d instanceof Array?d:[d],this.isBlock=e,this.blockedBy=f,this.deleteWhenComplete=g,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=h,this.process=function(){k("... func = "+a),i.isInitialized=!0,i.isComplete=!0;var b=i.funcName.split(".");b.length>3||(3===b.length?window[b[0]][b[1]][b[2]].apply(null,this.parameters):2===b.length?window[b[0]][b[1]].apply(null,this.parameters):window[i.funcName].apply(null,this.parameters)),!0===i.deleteWhenComplete&&delete c[a],!0===i.isBlock&&(k("----- F'D: "+i.name),l())}},file:function(a,b,c,d,e,f,g){var h=this;this.name=a,this.path=b,this.async=e,this.defer=f,this.isBlock=c,this.blockedBy=d,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=g,this.process=function(){h.isInitialized=!0,k("... file = "+a);var c=document.createElement("script");c.src=b,!0===e?c.async=!0:!0===f&&(c.defer=!0),c.onerror=function(){k("----- ERR'D: "+h.name),h.isError=!0,!0===h.isBlock&&l()},c.onreadystatechange=c.onload=function(){var a=c.readyState;k("----- F'D: "+h.name),a&&!/loaded|complete/.test(a)||(h.isComplete=!0,!0===h.isBlock&&l())},document.getElementsByTagName("head")[0].appendChild(c)}}};return{addFile:g,addFunc:h,items:c}}();var __ezDotData=function(a,b){this.name=a,this.val=b};__ez.dot.b64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(a){var c,d,e,f,g,h,i,b="",j=0;for(a=Base64._utf8_encode(a);j<a.length;)c=a.charCodeAt(j++),d=a.charCodeAt(j++),e=a.charCodeAt(j++),f=c>>2,g=(3&c)<<4|d>>4,h=(15&d)<<2|e>>6,i=63&e,isNaN(d)?h=i=64:isNaN(e)&&(i=64),b=b+this._keyStr.charAt(f)+this._keyStr.charAt(g)+this._keyStr.charAt(h)+this._keyStr.charAt(i);return b},decode:function(a){var c,d,e,f,g,h,i,b="",j=0;for(a=a.replace(/[^A-Za-z0-9+\/=]/g,"");j<a.length;)f=this._keyStr.indexOf(a.charAt(j++)),g=this._keyStr.indexOf(a.charAt(j++)),h=this._keyStr.indexOf(a.charAt(j++)),i=this._keyStr.indexOf(a.charAt(j++)),c=f<<2|g>>4,d=(15&g)<<4|h>>2,e=(3&h)<<6|i,b+=String.fromCharCode(c),64!=h&&(b+=String.fromCharCode(d)),64!=i&&(b+=String.fromCharCode(e));return b=Base64._utf8_decode(b)},_utf8_encode:function(a){a=a.replace(/rn/g,"n");for(var b="",c=0;c<a.length;c++){var d=a.charCodeAt(c);d<128?b+=String.fromCharCode(d):d>127&&d<2048?(b+=String.fromCharCode(d>>6|192),b+=String.fromCharCode(63&d|128)):(b+=String.fromCharCode(d>>12|224),b+=String.fromCharCode(d>>6&63|128),b+=String.fromCharCode(63&d|128))}return b},_utf8_decode:function(a){for(var b="",c=0,d=c1=c2=0;c<a.length;)d=a.charCodeAt(c),d<128?(b+=String.fromCharCode(d),c++):d>191&&d<224?(c2=a.charCodeAt(c+1),b+=String.fromCharCode((31&d)<<6|63&c2),c+=2):(c2=a.charCodeAt(c+1),c3=a.charCodeAt(c+2),b+=String.fromCharCode((15&d)<<12|(63&c2)<<6|63&c3),c+=3);return b}},__ez.dot.dataToStr=function(a){if(void 0===a)return[];try{for(var b in a)a[b].val=a[b].val+""}catch(a){}return a},__ez.dot.getCC=function(){var a="XX";return"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("country")&&(a=_ezaq.country),a},__ez.dot.getDID=function(){var a="0";return"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(a=_ezaq.domain_id.toString()),a},__ez.dot.getEpoch=function(a){return"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("t_epoch")&&(a=_ezaq.t_epoch),a},__ez.dot.getURL=function(a){return("undefined"!=typeof ezJsu&&1==ezJsu||"undefined"!=typeof _ez_sa&&1==_ez_sa||"undefined"!=typeof isAmp&&!0===isAmp)&&(a="//g.ezoic.net"+a),a},__ez.dot.isValid=function(a){for(var b=0;b<a.length;b++)if(a[b]instanceof __ezDotData==!1)return console.error("Invalid data. ",a[b]),!1;return!0},__ez.dot.isDefined=function(){for(var a=0;a<arguments.length;a++)if(void 0===arguments[a]||null===arguments[a])return console.error("Argument not defined. ",arguments),!1;return!0};__ez.bit=function(){function c(a,b){d(a,b),e()}function d(b,c){__ez.dot.isDefined(b)&&__ez.dot.isValid(c)&&a.push({type:"pageview",pageview_id:b,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(c)})}function e(){void 0!==document.visibilityState&&"prerender"===document.visibilityState||(__ez.dot.isDefined(a)&&a.length>0&&((new Image).src=__ez.dot.getURL(b)+"?orig="+(!0===__ez.template.isOrig?1:0)+"&ds="+btoa(JSON.stringify(a))),a=[])}var a=[],b="/detroitchicago/greenoaks.gif";return{Add:d,AddAndFire:c,Fire:e}}();</script><script data-cfasync='false' data-pagespeed-no-defer>__ez.pel=function(){function c(a,b){d(a,b,0,0,0,0,0),f()}function d(b,c,d,e,f,h,i){if(__ez.dot.isDefined(b,b.getSlotElementId)){var j=parseInt(b.getTargeting("ap")[0]),k=b.getSizes()[0],l=k.l.toString()+"x"+k.j.toString(),m=g(b),n=b.getSlotElementId();__ez.dot.isDefined(m,n)&&__ez.dot.isValid(c)&&a.push({type:"impression",impression_id:m,domain_id:__ez.dot.getDID(),unit:n,t_epoch:__ez.dot.getEpoch(0),revenue:d,est_revenue:e,ad_position:j,ad_size:l,bid_floor_filled:f,bid_floor_prev:h,stat_source_id:i,country_code:__ez.dot.getCC(),data:__ez.dot.dataToStr(c)})}}function e(b,c){var d=b.split("/");if(__ez.dot.isDefined(b)&&3===d.length&&__ez.dot.isValid(c)){var e=d[0],f=d[2];a.push({type:"impression",impression_id:f,domain_id:__ez.dot.getDID(),unit:e,t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(c)})}}function f(){void 0!==document.visibilityState&&"prerender"===document.visibilityState||(__ez.dot.isDefined(a)&&a.length>0&&((new Image).src=__ez.dot.getURL(b)+"?orig="+(!0===__ez.template.isOrig?1:0)+"&sts="+btoa(JSON.stringify(a))),a=[])}function g(a){var b=0;try{var c=a.getTargetingMap();if(-1===a.getSlotElementId().indexOf("div-gpt-ad"))return b;if(void 0!==c)for(var e in c)if(-1!==e.indexOf("iid")&&void 0!==c[e][0]){b=c[e][0];break}}catch(a){}return b}var a=[],b="/porpoiseant/army.gif";return{Add:d,AddAndFire:c,AddById:e,Fire:f}}();var EzoicPixel=function(){this.pixels=[],this.pixelUrl="/ezoic/e.gif",("undefined"!=typeof ezJsu&&ezJsu===!0||"undefined"!=typeof _ez_sa&&_ez_sa===!0||"undefined"!=typeof window.isAmp&&isAmp===!0)&&(this.pixelUrl="//g.ezoic.net"+this.pixelUrl),this.tEpoch=0,"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("t_epoch")&&(this.tEpoch=_ezaq.t_epoch)},EzoicPixelData=function(a,b){this.name=a,this.val=b};EzoicPixel.prototype={constructor:EzoicPixel,AddAndFireImpPixel:function(a,b){this.AddImpPixel(a,b,0,0,0,0,0),this.FirePixels()},AddAndFirePVPixel:function(a,b){this.AddPVPixel(a,b),this.FirePixels()},AddImpPixel:function(a,b,c,d,e,f,g){if(this.isDefined(a,a.getSlotElementId)){var h=parseInt(a.getTargeting("ap")[0]),i=a.getSizes()[0],j=i.l.toString()+"x"+i.j.toString(),k="0",l="XX";"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(k=_ezaq.domain_id.toString()),"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("country")&&(l=_ezaq.country);var m=this.getSlotIID(a),n=a.getSlotElementId();this.isDefined(m,n)&&this.validateData(b)&&(b=this.convertDataToStr(b),this.pixels.push({type:"impression",impression_id:m,domain_id:k,unit:n,t_epoch:this.tEpoch,revenue:c,est_revenue:d,ad_position:h,ad_size:j,bid_floor_filled:e,bid_floor_prev:f,stat_source_id:g,country_code:l,data:b}))}},AddImpPixelById:function(a,b){var c="0";"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(c=_ezaq.domain_id.toString());var d=a.split("/");if(this.isDefined(a)&&3===d.length&&this.validateData(b)){var e=d[0],f=d[2];b=this.convertDataToStr(b),this.pixels.push({type:"impression",impression_id:f,domain_id:c,unit:e,t_epoch:this.tEpoch,data:b})}},AddPVPixel:function(a,b){var c="0";"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(c=_ezaq.domain_id.toString()),this.isDefined(a)&&this.validateData(b)&&(b=this.convertDataToStr(b),this.pixels.push({type:"pageview",pageview_id:a,domain_id:c,t_epoch:this.tEpoch,data:b}))},FirePixels:function(){"undefined"!=typeof document.visibilityState&&"prerender"===document.visibilityState||(this.isDefined(this.pixels)&&this.pixels.length>0&&((new Image).src=this.pixelUrl+"?orig="+(__ez.template.isOrig===!0?1:0)+"&pixels="+encodeURIComponent(JSON.stringify(this.pixels))),this.pixels=[])},NewData:function(a,b){return new EzoicPixelData(a,b)},convertDataToStr:function(a){if("undefined"==typeof a)return[];try{for(var b in a)a[b].val=a[b].val+""}catch(a){}return a},getSlotIID:function(a){var b=0;try{var c=a.getTargetingMap(),d=a.getSlotElementId();if(d.indexOf("div-gpt-ad")===-1)return b;if("undefined"!=typeof c)for(var e in c)if(e.indexOf("iid")!==-1&&"undefined"!=typeof c[e][0]){b=c[e][0];break}}catch(a){}return b},isDefined:function(){for(var a=0;a<arguments.length;a++)if("undefined"==typeof arguments[a]||null===arguments[a])return console.error("Argument not defined. ",arguments),!1;return!0},validateData:function(a){for(var b=0;b<a.length;b++)if(a[b]instanceof EzoicPixelData==!1)return console.error("Invalid pixelData. ",a[b]),!1;return!0}};</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="https://dvdcover.com/wp-content/uploads/2017/10/freedvdcover.com-favicon.png">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34557632-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-34557632-1');
+</script><title>Avatar (2009) R1 DVD Cover - DVDcover.Com</title>
+
+    <meta name="description" content="Free Avatar (2009) R1 DVD Cover ready to download and print. DVDCover.Com your no.1 source for dvd, blu-ray &amp; 4k cover art." />
+    <link rel="canonical" href="https://dvdcover.com/avatar-2009-r1-dvd-cover/" />
+    <link rel="publisher" href="https://plus.google.com/Getdvdcoverscom/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Avatar (2009) R1 DVD Cover - DVDcover.Com" />
+    <meta property="og:description" content="Free Avatar (2009) R1 DVD Cover ready to download and print. DVDCover.Com your no.1 source for dvd, blu-ray &amp; 4k cover art." />
+    <meta property="og:url" content="https://dvdcover.com/avatar-2009-r1-dvd-cover/" />
+    <meta property="og:site_name" content="DVDCover.Com" />
+    <meta property="article:publisher" content="https://www.facebook.com/GetDVDcovers" />
+    <meta property="article:section" content="Movie DVD Covers &amp; Labels" />
+    <meta property="article:published_time" content="2017-12-19T20:11:55+00:00" />
+    <meta property="og:image" content="https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar.jpg" />
+    <meta property="og:image:secure_url" content="https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar.jpg" />
+    <meta property="og:image:width" content="4264" />
+    <meta property="og:image:height" content="2860" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Free Avatar (2009) R1 DVD Cover ready to download and print. DVDCover.Com your no.1 source for dvd, blu-ray &amp; 4k cover art." />
+    <meta name="twitter:title" content="Avatar (2009) R1 DVD Cover - DVDcover.Com" />
+    <meta name="twitter:site" content="@GetDVDcovers" />
+    <meta name="twitter:image" content="https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar.jpg" />
+    <meta name="twitter:creator" content="@GetDVDcovers" />
+    <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/dvdcover.com\/","name":"DVDCover.Com","potentialAction":{"@type":"SearchAction","target":"https:\/\/dvdcover.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
+    <link rel='dns-prefetch' href='//www.google.com' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="DVDCover.Com &raquo; Feed" href="https://dvdcover.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="DVDCover.Com &raquo; Comments Feed" href="https://dvdcover.com/comments/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="DVDCover.Com &raquo; Avatar (2009) R1 DVD Cover Comments Feed" href="https://dvdcover.com/avatar-2009-r1-dvd-cover/feed/" />
+    <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/dvdcover.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+    <style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+    <link rel='stylesheet' id='pmpro_frontend-css' href='https://dvdcover.com/wp-content/plugins/paid-memberships-pro/css/frontend.css?ver=1.9.4.3' type='text/css' media='screen' />
+    <link rel='stylesheet' id='pmpro_print-css' href='https://dvdcover.com/wp-content/plugins/paid-memberships-pro/css/print.css?ver=1.9.4.3' type='text/css' media='print' />
+    <link rel='stylesheet' id='um_online-css' href='https://dvdcover.com/wp-content/plugins/um-online/assets/css/um-online.css?ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='um_recaptcha-css' href='https://dvdcover.com/wp-content/plugins/um-recaptcha/assets/css/um-recaptcha.css?ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='crp-style-rounded-thumbs-css' href='https://dvdcover.com/wp-content/plugins/contextual-related-posts/css/default-style.css?ver=4.9.2' type='text/css' media='all' />
+    <style id='crp-style-rounded-thumbs-inline-css' type='text/css'>
+
+.crp_related a {
+  width: 150px;
+  height: 150px;
+  text-decoration: none;
+}
+.crp_related img {
+  max-width: 150px;
+  margin: auto;
+}
+.crp_related .crp_title {
+  width: 150px;
+}
+
+</style>
+    <link rel='stylesheet' id='arevico_scsfbcss-css' href='https://dvdcover.com/wp-content/plugins/facebook-page-promoter-lightbox-premium/includes/front/scs/scs.css?ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='gglcptch-css' href='https://dvdcover.com/wp-content/plugins/google-captcha/css/gglcptch.css?ver=1.33' type='text/css' media='all' />
+    <link rel='stylesheet' id='imdb-info-style-css' href='https://dvdcover.com/?imdbstyle=custom&#038;ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='cookie-consent-style-css' href='https://dvdcover.com/wp-content/plugins/uk-cookie-consent/assets/css/style.css?ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='wordpress-popular-posts-css-css' href='https://dvdcover.com/wp-content/plugins/wordpress-popular-posts/public/css/wpp.css?ver=4.0.13' type='text/css' media='all' />
+    <link rel='stylesheet' id='display-authors-widget-styles-css' href='https://dvdcover.com/wp-content/plugins/display-authors-widget/css/display-authors-widget.css?ver=20141604' type='text/css' media='all' />
+    <link rel='stylesheet' id='pinthis-style-css' href='https://dvdcover.com/wp-content/themes/pinthis/style.css?ver=1.6.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='pinthis-ubuntu-font-css' href='https://fonts.googleapis.com/css?family=Ubuntu%3A400%2C400italic&#038;subset=latin%2Ccyrillic&#038;ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='pinthis-roboto-font-css' href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C500%2C700%2C900&#038;subset=latin%2Ccyrillic&#038;ver=4.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpdreams-asp-basic-css' href='//dvdcover.com/wp-content/plugins/ajax-search-pro/css/style.basic.css?ver=vV4g2v' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpdreams-asp-chosen-css' href='//dvdcover.com/wp-content/plugins/ajax-search-pro/css/chosen/chosen.css?ver=vV4g2v' type='text/css' media='all' />
+    <link rel='stylesheet' id='an_style-css' href='https://dvdcover.com/wp-content/uploads/pkdJzfYWSwMf/FpeCspoWlueD.css?ver=2.2.3' type='text/css' media='all' />
+    <style id='an_style-inline-css' type='text/css'>
+.CWgiqlQHxUrX-bg{display:none;position:fixed;z-index:100;top:0;left:0;width:100%;height:100%;background:#000;background:rgba(0,0,0,0.75);}.CWgiqlQHxUrX{visibility:hidden;position:fixed;z-index:101;top:100px;right:0;left:0;max-width:640px;margin-right:auto;margin-left:auto;background:#fff;-webkit-box-shadow:0 3px 5px 2px rgba(0,0,0,0.25);box-shadow:0 3px 5px 2px rgba(0,0,0,0.25);font-family:Arial,Helvetica,sans-serif;}.CWgiqlQHxUrX-default,.CWgiqlQHxUrX-ok{padding:30px 30px 15px;}.CWgiqlQHxUrX-image{overflow:hidden;position:relative;width:100%;}.CWgiqlQHxUrX-image .CWgiqlQHxUrX-left{position:absolute;top:0;left:0;width:50%;height:100%;}.CWgiqlQHxUrX-image .CWgiqlQHxUrX-right{float:right;width:50%;padding:30px;}.CWgiqlQHxUrX.small{width:200px;margin-left:-140px;}.CWgiqlQHxUrX.medium{width:400px;margin-left:-240px;}.CWgiqlQHxUrX.large{width:600px;margin-left:-340px;}.CWgiqlQHxUrX.xlarge{width:800px;margin-left:-440px;}.close-CWgiqlQHxUrX{display:inline-block;position:absolute;top:15px;right:15px;width:30px;height:30px;color:#bbb;font-size:32px;font-weight:700;line-height:30px;text-align:center;cursor:pointer;-webkit-transition:0.3s;transition:0.3s;}.close-CWgiqlQHxUrX:hover{color:#252b37;}.CWgiqlQHxUrX h1{margin-bottom:15px;padding:0 30px;color:#252b37;font-size:28px;line-height:1.25;text-align:center;}.CWgiqlQHxUrX-right h1{padding:0 30px 0 0;text-align:left;}.CWgiqlQHxUrX p{margin-bottom:15px;color:#333745;font-size:14px;}.CWgiqlQHxUrX p a{color:#ff6160;}.CWgiqlQHxUrX-right .close-modal,.CWgiqlQHxUrX-footer .close-modal{padding:15px!important;border-radius:0!important;background-color:#ff6160;font-size:14px;letter-spacing:2px!important;-webkit-transition:0.3s;transition:0.3s;}.CWgiqlQHxUrX-right .close-modal:hover,.CWgiqlQHxUrX-footer .close-modal:hover{background-color:#252b37!important;}.CWgiqlQHxUrX-footer .grey-button-modal{margin-right:15px;background-color:#a5a5a5;}.CWgiqlQHxUrX-footer{display:block;padding:15px 30px;background-color:#eff4f7;text-align:right;}@media only screen and (max-width: 640px) {.CWgiqlQHxUrX{right:5%;left:5%;max-width:90%;}.CWgiqlQHxUrX-default{padding:20px;}.CWgiqlQHxUrX-image .CWgiqlQHxUrX-left{width:100%;height:250px;}.CWgiqlQHxUrX-image .CWgiqlQHxUrX-right{float:left;width:100%;margin-top:250px;padding:20px;}.CWgiqlQHxUrX h1{margin-bottom:10px;font-size:20px;}.CWgiqlQHxUrX-right h1{padding:0;}.CWgiqlQHxUrX p{margin-bottom:10px;}.close-CWgiqlQHxUrX{color:#fcfcfc;background-color:#252b37;}.close-CWgiqlQHxUrX:hover{color:#252b37;background-color:#fcfcfc;}.CWgiqlQHxUrX-footer{padding:15px 20px;}}@media only screen and (max-width: 480px) {.CWgiqlQHxUrX-image .CWgiqlQHxUrX-left{height:200px;}.CWgiqlQHxUrX-image .CWgiqlQHxUrX-right{margin-top:200px;}.CWgiqlQHxUrX-footer{text-align:center;}.CWgiqlQHxUrX-footer .close-modal{width:80%;margin:5px 10%;}}
+</style>
+    <link rel='stylesheet' id='um_minified-css' href='https://dvdcover.com/wp-content/plugins/ultimate-member/assets/css/um.min.css?ver=1.3.88' type='text/css' media='all' />
+    <script type='text/javascript' src='https://dvdcover.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='https://dvdcover.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/facebook-page-promoter-lightbox-premium/includes/front/scs/scs.js?ver=4.9.2'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var lb_l_ret = {"width":"400","height":"255","delay":"9000","coc":"0","fb_id":"https:\/\/www.facebook.com\/freedvdcover","cooc":"0","fblocale":"","loggedin":"1","connect":"1","appid":"187134261401577","mab":"Like Us ! And we will never bother you again :)","gaevent":"0","hideonlike":"1","eam":"1","fbcolorscheme":"light","overlaycolor":"#666666","extracss":"backgroud-color:blue;","cmessage":"Already a fan?","install_date":"1460756175","display_on_page":"1","display_on_post":"1","show_once":"1","overlayop":"0.3","cover":"1","mobile":"1"};
+/* ]]> */
+</script>
+    <script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/facebook-page-promoter-lightbox-premium/includes/front/js/launch-premium.js?ver=4.9.2'></script>
+    <script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.js?ver=2.1.1'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"sampling_active":"1","sampling_rate":"100","ajax_url":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php","action":"update_views_ajax","ID":"132010","token":"f100b6837c"};
+/* ]]> */
+</script>
+    <script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/wordpress-popular-posts/public/js/wpp.js?ver=4.0.13'></script>
+    <script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/usp-pro/js/usp-pro.min.js?ver=2.8.1'></script>
+    <link rel='https://api.w.org/' href='https://dvdcover.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dvdcover.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dvdcover.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.9.2" />
+    <link rel='shortlink' href='https://dvdcover.com/?p=132010' />
+    <link rel="alternate" type="application/json+oembed" href="https://dvdcover.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdvdcover.com%2Favatar-2009-r1-dvd-cover%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://dvdcover.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdvdcover.com%2Favatar-2009-r1-dvd-cover%2F&#038;format=xml" />
+    <style id="ctcc-css" type="text/css" media="screen">
+				#catapult-cookie-bar {
+					box-sizing: border-box;
+					max-height: 0;
+					opacity: 0;
+					z-index: 99999;
+					overflow: hidden;
+					color: #ddd;
+					position: fixed;
+					left: 0;
+					bottom: 0;
+					width: 100%;
+					background-color: #394264;
+				}
+				#catapult-cookie-bar a {
+					color: #fff;
+				}
+				#catapult-cookie-bar .x_close span {
+					background-color: ;
+				}
+				button#catapultCookie {
+					background:;
+					color: ;
+					border: 0; padding: 6px 9px; border-radius: 3px;
+				}
+				#catapult-cookie-bar h3 {
+					color: #ddd;
+				}
+				.has-cookie-bar #catapult-cookie-bar {
+					opacity: 1;
+					max-height: 999px;
+					min-height: 30px;
+				}</style>  <link href='//fonts.googleapis.com/css?family=Open+Sans:300|Open+Sans:400|Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:300|Lato:400|Lato:700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+
+		var ultimatemember_image_upload_url = 'https://dvdcover.com/wp-content/plugins/ultimate-member/core/lib/upload/um-image-upload.php';
+		var ultimatemember_file_upload_url = 'https://dvdcover.com/wp-content/plugins/ultimate-member/core/lib/upload/um-file-upload.php';
+		var ultimatemember_ajax_url = 'https://dvdcover.com/wp-admin/admin-ajax.php';
+
+		</script>
+    <style type="text/css">.request_name { display: none !important; }</style>
+    <style type="text/css">
+                <!--
+                @font-face {
+                    font-family: 'asppsicons2';
+                    src: url('https://dvdcover.com/wp-content/plugins/ajax-search-pro/css/fonts/icons/icons2.eot');
+                    src: url('https://dvdcover.com/wp-content/plugins/ajax-search-pro/css/fonts/icons/icons2.eot?#iefix') format('embedded-opentype'),
+                    url('https://dvdcover.com/wp-content/plugins/ajax-search-pro/css/fonts/icons/icons2.woff2') format('woff2'),
+                    url('https://dvdcover.com/wp-content/plugins/ajax-search-pro/css/fonts/icons/icons2.woff') format('woff'),
+                    url('https://dvdcover.com/wp-content/plugins/ajax-search-pro/css/fonts/icons/icons2.ttf') format('truetype'),
+                    url('https://dvdcover.com/wp-content/plugins/ajax-search-pro/css/fonts/icons/icons2.svg#icons') format('svg');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+div[id*='ajaxsearchpro1_'] div.asp_loader,
+div[id*='ajaxsearchpro1_'] div.asp_loader * {
+    /* display: none; */
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    /* vertical-align: middle !important; */
+    box-shadow: none;
+}
+
+div[id*='ajaxsearchpro1_'] div.asp_loader {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis:28px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+div[id*='ajaxsearchpro1_'] div.asp_loader-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* vertical-align: text-top; */
+    height: 100%;
+}
+
+@-webkit-keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+div[id*='ajaxsearchpro1_'] div.asp_simple-circle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    animation: rotate-simple 0.8s infinite linear;
+    -webkit-animation: rotate-simple 0.8s infinite linear;
+    border: 4px solid rgb(255, 255, 255);
+    border-right-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader,
+div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader * {
+    /* display: none; */
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    /* vertical-align: middle !important; */
+    box-shadow: none;
+}
+
+div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis:28px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* vertical-align: text-top; */
+    height: 100%;
+}
+
+@-webkit-keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_simple-circle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    animation: rotate-simple 0.8s infinite linear;
+    -webkit-animation: rotate-simple 0.8s infinite linear;
+    border: 4px solid rgb(255, 255, 255);
+    border-right-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#ajaxsearchpro1_1 div.asp_loader, #ajaxsearchpro1_2 div.asp_loader,
+#ajaxsearchpro1_1 div.asp_loader *, #ajaxsearchpro1_2 div.asp_loader * {
+    /* display: none; */
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    /* vertical-align: middle !important; */
+    box-shadow: none;
+}
+
+#ajaxsearchpro1_1 div.asp_loader, #ajaxsearchpro1_2 div.asp_loader {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis:28px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#ajaxsearchpro1_1 div.asp_loader-inner, #ajaxsearchpro1_2 div.asp_loader-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* vertical-align: text-top; */
+    height: 100%;
+}
+
+@-webkit-keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+#ajaxsearchpro1_1 div.asp_simple-circle, #ajaxsearchpro1_2 div.asp_simple-circle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    animation: rotate-simple 0.8s infinite linear;
+    -webkit-animation: rotate-simple 0.8s infinite linear;
+    border: 4px solid rgb(255, 255, 255);
+    border-right-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes asp_an_fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes asp_an_fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.asp_an_fadeInDown {
+    -webkit-animation-name:  asp_an_fadeInDown;
+    animation-name:  asp_an_fadeInDown;
+}
+
+
+div.asp_r.asp_r_1,
+div.asp_r.asp_r_1 *,
+div.asp_m.asp_m_1,
+div.asp_m.asp_m_1 *,
+div.asp_s.asp_s_1,
+div.asp_s.asp_s_1 * {
+    -webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box; /* Firefox, other Gecko */
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 0;
+    text-transform: none;
+    text-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+div.asp_r.asp_r_1,
+div.asp_m.asp_m_1,
+div.asp_s.asp_s_1 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Margin and padding gets wrecked if set with compatibility.. */
+div.asp_r.asp_r_1,
+div.asp_r.asp_r_1 *,
+div.asp_m.asp_m_1,
+div.asp_m.asp_m_1 *,
+div.asp_s.asp_s_1,
+div.asp_s.asp_s_1 * {
+    padding: 0;
+    margin: 0;
+}
+
+.wpdreams_clear {
+    clear: both;
+}
+
+    #ajaxsearchpro1_1,
+    #ajaxsearchpro1_2,
+div.asp_m.asp_m_1 {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: #d1eaff;
+                background-image: -moz-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -o-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -ms-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: radial-gradient(ellipse at center,  rgb(92, 183, 225), rgb(92, 183, 225));
+          overflow: hidden;
+  border:0px none rgb(141, 213, 239);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px #000000 ;}
+
+    #ajaxsearchpro1_1 .probox,
+    #ajaxsearchpro1_2 .probox,
+div.asp_m.asp_m_1 .probox {
+  margin: 0px;
+  height: 34px;
+              background-image: -moz-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -o-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -ms-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: radial-gradient(ellipse at center,  rgb(92, 183, 225), rgb(92, 183, 225));
+          border:0px solid rgb(104, 174, 199);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px rgb(181, 181, 181) inset;}
+
+
+
+p[id*=asp-try-1] {
+    color: rgb(85, 85, 85) !important;
+    display: block;
+}
+
+div.asp_main_container+[id*=asp-try-1] {
+        width: 100%;
+}
+
+p[id*=asp-try-1] a {
+    color: rgb(255, 181, 86) !important;
+}
+
+p[id*=asp-try-1] a:after {
+    color: rgb(85, 85, 85) !important;
+    display: inline;
+    content: ',';
+}
+
+p[id*=asp-try-1] a:last-child:after {
+    display: none;
+}
+
+    #ajaxsearchpro1_1 .probox .proinput,
+    #ajaxsearchpro1_2 .probox .proinput,
+div.asp_m.asp_m_1 .probox .proinput {
+  font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+  flex-grow: 1;
+  order: 5;
+  /* Ipad and stuff.. */
+  -webkit-flex-grow: 1;
+  -webkit-order: 5;
+}
+
+    #ajaxsearchpro1_1 .probox .proinput input.orig,
+    #ajaxsearchpro1_2 .probox .proinput input.orig,
+div.asp_m.asp_m_1 .probox .proinput input.orig {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+    border: 0;
+    box-shadow: none;
+    height: 34px;
+    position: relative;
+    z-index: 2;
+    padding: 0 !important;
+    padding-top: 2px !important;
+    margin: -1px 0 0 -4px !important;
+    width: 100%;
+    background: transparent !important;
+}
+
+    #ajaxsearchpro1_1 .probox .proinput input.autocomplete,
+    #ajaxsearchpro1_2 .probox .proinput input.autocomplete,
+div.asp_m.asp_m_1 .probox .proinput input.autocomplete {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+    opacity: 0.25;
+    height: 34px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding: 0 !important;
+    margin: -1px 0 0 -4px !important;
+    margin-top: -34px !important;
+    width: 100%;
+    background: transparent !important;
+}
+
+    .rtl #ajaxsearchpro1_1 .probox .proinput input.orig,
+    .rtl #ajaxsearchpro1_2 .probox .proinput input.orig,
+    .rtl #ajaxsearchpro1_1 .probox .proinput input.autocomplete,
+    .rtl #ajaxsearchpro1_2 .probox .proinput input.autocomplete,
+.rtl div.asp_m.asp_m_1 .probox .proinput input.orig,
+.rtl div.asp_m.asp_m_1 .probox .proinput input.autocomplete {
+font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);line-height: normal;
+direction: rtl;
+text-align: right;
+}
+
+    .rtl #ajaxsearchpro1_1 .probox .proinput,
+    .rtl #ajaxsearchpro1_2 .probox .proinput,
+.rtl div.asp_m.asp_m_1 .probox .proinput {
+    /*float: right;*/
+    margin-right: 2px;
+}
+
+    .rtl #ajaxsearchpro1_1 .probox .proloading,
+    .rtl #ajaxsearchpro1_1 .probox .proclose,
+    .rtl #ajaxsearchpro1_2 .probox .proloading,
+    .rtl #ajaxsearchpro1_2 .probox .proclose,
+.rtl div.asp_m.asp_m_1 .probox .proloading,
+.rtl div.asp_m.asp_m_1 .probox .proclose {
+    order: 3;
+}
+
+
+div.asp_m.asp_m_1 .probox .proinput input.orig::-webkit-input-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+}
+div.asp_m.asp_m_1 .probox .proinput input.orig::-moz-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+}
+div.asp_m.asp_m_1 .probox .proinput input.orig:-ms-input-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+}
+div.asp_m.asp_m_1 .probox .proinput input.orig:-moz-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+    line-height: normal !important;
+}
+
+    #ajaxsearchpro1_1 .probox .proinput input.autocomplete,
+    #ajaxsearchpro1_2 .probox .proinput input.autocomplete,
+div.asp_m.asp_m_1 .probox .proinput input.autocomplete {
+  font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+    border: 0;
+    box-shadow: none;
+}
+
+    #ajaxsearchpro1_1 .probox .proloading,
+    #ajaxsearchpro1_1 .probox .proclose,
+    #ajaxsearchpro1_1 .probox .promagnifier,
+    #ajaxsearchpro1_1 .probox .prosettings,
+    #ajaxsearchpro1_2 .probox .proloading,
+    #ajaxsearchpro1_2 .probox .proclose,
+    #ajaxsearchpro1_2 .probox .promagnifier,
+    #ajaxsearchpro1_2 .probox .prosettings,
+div.asp_m.asp_m_1 .probox .proloading,
+div.asp_m.asp_m_1 .probox .proclose,
+div.asp_m.asp_m_1 .probox .promagnifier,
+div.asp_m.asp_m_1 .probox .prosettings {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  flex-grow: 0;
+  order: 7;
+    /* Ipad and stuff.. */
+    -webkit-flex: 0 0 34px;
+    -webkit-flex-grow: 0;
+    -webkit-order: 7;
+}
+
+    #ajaxsearchpro1_1 .probox .proclose svg,
+    #ajaxsearchpro1_2 .probox .proclose svg,
+div.asp_m.asp_m_1 .probox .proclose svg {
+     fill: rgb(254, 254, 254);
+     background: rgb(51, 51, 51);
+     box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.9);
+}
+
+	#ajaxsearchpro1_1 .probox .proloading,
+	#ajaxsearchpro1_2 .probox .proloading,
+div.asp_m.asp_m_1 .probox .proloading {
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    min-height: 34px;
+    max-width: 34px;
+    max-height: 34px;
+}
+
+	#ajaxsearchpro1_1 .probox .proloading .asp_loader,
+	#ajaxsearchpro1_2 .probox .proloading .asp_loader,
+div.asp_m.asp_m_1 .probox .proloading .asp_loader {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+	#ajaxsearchpro1_1 .probox .promagnifier,
+	#ajaxsearchpro1_2 .probox .promagnifier,
+div.asp_m.asp_m_1 .probox .promagnifier {
+	width: auto;
+	height: 34px;
+	flex: 0 0 auto;
+	order: 7;
+	/* Ipad and stuff.. */
+	-webkit-flex: 0 0 auto;
+	-webkit-order: 7;
+}
+
+
+	#ajaxsearchpro1_1 .probox .promagnifier div.innericon,
+	#ajaxsearchpro1_2 .probox .promagnifier div.innericon,
+div.asp_m.asp_m_1 .probox .promagnifier div.innericon {
+	width: 34px;
+	height: 34px;
+	float: right;
+}
+
+	#ajaxsearchpro1_1 .probox .promagnifier div.asp_text_button,
+	#ajaxsearchpro1_2 .probox .promagnifier div.asp_text_button,
+div.asp_m.asp_m_1 .probox .promagnifier div.asp_text_button {
+	width: auto;
+	height: 34px;
+	float: right;
+	margin: 0;
+		    padding: 0 10px 0 2px;
+		\'font-weight:normal;font-family:'Open Sans';color:rgba(51, 51, 51, 1);font-size:15px;line-height:auto;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);\';    /* to center the text, this must be identical with the height */
+    line-height: 34px;
+}
+
+    #ajaxsearchpro1_1 .probox .promagnifier .innericon svg,
+    #ajaxsearchpro1_2 .probox .promagnifier .innericon svg,
+div.asp_m.asp_m_1 .probox .promagnifier .innericon svg {
+  fill: rgb(255, 255, 255);
+}
+
+    #ajaxsearchpro1_1 .probox .prosettings .innericon svg,
+    #ajaxsearchpro1_2 .probox .prosettings .innericon svg,
+div.asp_m.asp_m_1 .probox .prosettings .innericon svg {
+  fill: rgb(255, 255, 255);
+}
+
+
+    #ajaxsearchpro1_1.asp_msie .probox .proloading,
+    #ajaxsearchpro1_2.asp_msie .probox .proloading,
+div.asp_m.asp_m_1.asp_msie .probox .proloading {
+    background-image: url("//dvdcover.com/wp-content/plugins/ajax-search-pro//img/loading/newload1.gif");
+    float: right;
+}
+
+    #ajaxsearchpro1_1 .probox .promagnifier,
+    #ajaxsearchpro1_2 .probox .promagnifier,
+div.asp_m.asp_m_1 .probox .promagnifier {
+        width: 34px;
+    height: 34px;
+              background-image: -webkit-linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -moz-linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -o-linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -ms-linear-gradient(180deg, rgb(70, 142, 190) 0%, rgb(70, 142, 190) 100%);
+            background-image: linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+          background-position:center center;
+  background-repeat: no-repeat;
+
+  order: 11;
+  /* Ipad and stuff fix */
+  -webkit-order: 11;
+  float: right; /* IE9, no flexbox */
+  border:0px solid rgb(0, 0, 0);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px rgba(255, 255, 255, 0.61) ;  cursor: pointer;
+  background-size: 100% 100%;
+
+  background-position:center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
+    #ajaxsearchpro1_1 .probox .prosettings,
+    #ajaxsearchpro1_2 .probox .prosettings,
+div.asp_m.asp_m_1 .probox .prosettings {
+  width: 34px;
+  height: 34px;
+              background-image: -webkit-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -moz-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -o-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -ms-linear-gradient(185deg, rgb(70, 142, 190) 0%, rgb(70, 142, 190) 100%);
+            background-image: linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+          background-position:center center;
+  background-repeat: no-repeat;
+  order: 10;
+  /* Ipad and stuff fix*/
+  -webkit-order: 10;
+  float: right; /* IE9, no flexbox */
+  border:0px solid rgb(104, 174, 199);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px rgba(255, 255, 255, 0.63) ;  cursor: pointer;
+  background-size: 100% 100%;
+  align-self: flex-end;
+}
+
+
+    #ajaxsearchprores1_1,
+    #ajaxsearchprores1_2,
+div.asp_r.asp_r_1 {
+    position: static;
+    z-index: 1;
+}
+
+    #ajaxsearchprores1_1 .results .asp_nores .asp_keyword,
+    #ajaxsearchprores1_2 .results .asp_nores .asp_keyword,
+div.asp_r.asp_r_1 .results .asp_nores .asp_keyword {
+    padding: 0 6px;
+    cursor: pointer;
+    font-weight:normal;font-family:'Open Sans';color:rgb(74, 74, 74);font-size:13px;line-height:1.35em;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    font-weight: bold;
+}
+
+    #ajaxsearchprores1_1 .results .item,
+    #ajaxsearchprores1_2 .results .item,
+div.asp_r.asp_r_1 .results .item {
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+
+    #ajaxsearchprores1_1 .results .item.hovered,
+    #ajaxsearchprores1_2 .results .item.hovered,
+div.asp_r.asp_r_1 .results .item.hovered {
+              background-image: -moz-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -webkit-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -o-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -ms-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: radial-gradient(ellipse at center,  rgb(245, 245, 245), rgb(245, 245, 245));
+        }
+
+    #ajaxsearchprores1_1 .results .item .asp_image,
+    #ajaxsearchprores1_2 .results .item .asp_image,
+div.asp_r.asp_r_1 .results .item .asp_image {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+    #ajaxsearchprores1_1 .results .item .asp_item_img,
+    #ajaxsearchprores1_2 .results .item .asp_item_img,
+div.asp_r.asp_r_1 .results .item .asp_item_img {
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+    #ajaxsearchprores1_1 .results .item .asp_item_overlay_img,
+    #ajaxsearchprores1_2 .results .item .asp_item_overlay_img,
+div.asp_r.asp_r_1 .results .item .asp_item_overlay_img {
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+    #ajaxsearchprores1_1 .results .item .asp_content,
+    #ajaxsearchprores1_2 .results .item .asp_content,
+div.asp_r.asp_r_1 .results .item .asp_content {
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    padding: 0 10px;
+}
+
+    #ajaxsearchprores1_1 .results .item .asp_content h3,
+    #ajaxsearchprores1_2 .results .item .asp_content h3,
+div.asp_r.asp_r_1 .results .item .asp_content h3 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  line-height: inherit;
+  font-weight:bold;font-family:'Lato';color:rgb(255, 255, 255);font-size:15px;line-height:20px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 .results .item .asp_content h3 a,
+    #ajaxsearchprores1_2 .results .item .asp_content h3 a,
+div.asp_r.asp_r_1 .results .item .asp_content h3 a {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  font-weight:bold;font-family:'Lato';color:rgb(255, 255, 255);font-size:15px;line-height:20px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 .results .item .asp_content h3 a:hover,
+    #ajaxsearchprores1_2 .results .item .asp_content h3 a:hover,
+div.asp_r.asp_r_1 .results .item .asp_content h3 a:hover {
+  font-weight:bold;font-family:'Lato';color:rgb(255, 255, 255);font-size:15px;line-height:20px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 .results .item div.etc,
+    #ajaxsearchprores1_2 .results .item div.etc,
+div.asp_r.asp_r_1 .results .item div.etc {
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.3em;
+  margin-bottom: 6px;
+}
+
+    #ajaxsearchprores1_1 .results .item .etc .asp_author,
+    #ajaxsearchprores1_2 .results .item .etc .asp_author,
+div.asp_r.asp_r_1 .results .item .etc .asp_author {
+  padding: 0;
+  font-weight:bold;font-family:'Open Sans';color:rgb(161, 161, 161);font-size:11px;line-height:13px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 .results .item .etc .asp_date,
+    #ajaxsearchprores1_2 .results .item .etc .asp_date,
+div.asp_r.asp_r_1 .results .item .etc .asp_date {
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-weight:normal;font-family:'Open Sans';color:rgb(173, 173, 173);font-size:11px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 .results .item p.desc,
+    #ajaxsearchprores1_2 .results .item p.desc,
+div.asp_r.asp_r_1 .results .item p.desc {
+  margin: 2px 0px;
+  padding: 0;
+  font-weight:normal;font-family:'Open Sans';color:rgb(74, 74, 74);font-size:13px;line-height:1.35em;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 .results .item div.asp_content,
+    #ajaxsearchprores1_2 .results .item div.asp_content,
+div.asp_r.asp_r_1 .results .item div.asp_content {
+    margin: 0px;
+    padding: 0;
+    font-weight:normal;font-family:'Open Sans';color:rgb(74, 74, 74);font-size:13px;line-height:1.35em;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 span.highlighted,
+    #ajaxsearchprores1_2 span.highlighted,
+div.asp_r.asp_r_1 span.highlighted {
+    font-weight: bold;
+    color: #d9312b;
+    background-color: #eee;
+    color: rgba(217, 49, 43, 1);
+    background-color: rgba(238, 238, 238, 1);
+}
+
+    #ajaxsearchprores1_1 p.showmore,
+    #ajaxsearchprores1_2 p.showmore,
+div.asp_r.asp_r_1 p.showmore {
+  text-align: center;
+  margin: 5px 0 0;
+  font-weight:normal;font-family:'Open Sans';color:rgb(5, 94, 148);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 p.showmore a,
+    #ajaxsearchprores1_2 p.showmore a,
+div.asp_r.asp_r_1 p.showmore a {
+    font-weight:normal;font-family:'Open Sans';color:rgb(5, 94, 148);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    padding: 10px 5px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    text-align: center;
+}
+
+    #ajaxsearchprores1_1 .asp_group_header,
+    #ajaxsearchprores1_2 .asp_group_header,
+div.asp_r.asp_r_1 .asp_group_header {
+  background: #DDDDDD;
+  background: rgb(246, 246, 246);
+  border-radius: 3px 3px 0 0;
+  border-top: 1px solid rgb(248, 248, 248);
+  border-left: 1px solid rgb(248, 248, 248);
+  border-right: 1px solid rgb(248, 248, 248);
+  margin: 10px 0 -3px;
+  padding: 7px 0 7px 10px;
+  position: relative;
+  z-index: 1000;
+  font-weight:bold;font-family:'Open Sans';color:rgb(5, 94, 148);font-size:11px;line-height:13px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores1_1 .asp_res_loader,
+    #ajaxsearchprores1_2 .asp_res_loader,
+div.asp_r.asp_r_1 .asp_res_loader {
+    background: rgb(255, 255, 255);
+    height: 200px;
+    padding: 10px;
+}
+
+    #ajaxsearchprores1_1.isotopic .asp_res_loader,
+    #ajaxsearchprores1_2.isotopic .asp_res_loader,
+div.asp_r.asp_r_1.isotopic .asp_res_loader {
+    background: rgba(255, 255, 255, 0);
+}
+
+    #ajaxsearchprores1_1 .asp_res_loader .asp_loader,
+    #ajaxsearchprores1_2 .asp_res_loader .asp_loader,
+div.asp_r.asp_r_1 .asp_res_loader .asp_loader {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+/* Search settings */
+    div.asp_s.asp_s_1.searchsettings,
+    div.asp_s.asp_s_1.searchsettings,
+div.asp_s.asp_s_1.searchsettings  {
+  direction: ltr;
+  padding: 0;
+              background-image: -webkit-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -moz-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -o-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -ms-linear-gradient(185deg, rgb(70, 142, 190) 0%, rgb(70, 142, 190) 100%);
+            background-image: linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+          box-shadow:0px 0px 0px 0px rgb(0, 0, 0) ;;
+  max-width: 208px;
+  z-index: 2;
+}
+
+    #ajaxsearchprobsettings1_1.searchsettings,
+    #ajaxsearchprobsettings1_2.searchsettings,
+div.asp_sb.asp_sb_1.searchsettings {
+  max-width: none;
+}
+
+    div.asp_s.asp_s_1.searchsettings form,
+    div.asp_s.asp_s_1.searchsettings form,
+div.asp_s.asp_s_1.searchsettings form {
+  display: block;
+    -moz-column-width: 200px;
+    -moz-column-fill: balance;
+    -moz-column-gap: 0px;
+    -webkit-column-width: 200px;
+    -webkit-column-gap: 0;
+    column-width: 200px;
+    column-gap: 0;
+    column-fill: balance;
+}
+
+    div.asp_sb.asp_sb_1.searchsettings form,
+    div.asp_sb.asp_sb_1.searchsettings form,
+div.asp_sb.asp_sb_1.searchsettings form {
+  display: block;
+    -moz-column-width: 200px;
+    -moz-column-fill: balance;
+    -moz-column-gap: 0px;
+    -webkit-column-width: 200px;
+    -webkit-column-gap: 0;
+    column-width: 200px;
+    column-gap: 0;
+    column-fill: balance;
+}
+
+            div.asp_sb.asp_sb_1.searchsettings form>fieldset,
+        div.asp_sb.asp_sb_1.searchsettings form>fieldset,
+        div.asp_sb.asp_sb_1.searchsettings form>fieldset {
+      display: inline-block;
+      vertical-align: top;
+      float: none;
+    }
+            div.asp_s.asp_s_1.searchsettings form>fieldset,
+        div.asp_s.asp_s_1.searchsettings form>fieldset,
+        div.asp_s.asp_s_1.searchsettings form>fieldset {
+      display: inline-block;
+      vertical-align: top;
+      float: none;
+    }
+
+    #ajaxsearchprosettings1_1.searchsettings div.asp_option_label,
+    #ajaxsearchprosettings1_2.searchsettings div.asp_option_label,
+    #ajaxsearchprosettings1_1.searchsettings .asp_label,
+    #ajaxsearchprosettings1_2.searchsettings .asp_label,
+div.asp_s.asp_s_1.searchsettings div.asp_option_label,
+div.asp_s.asp_s_1.searchsettings .asp_label {
+  font-weight:bold;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprosettings1_1.searchsettings .asp_option_inner label,
+    #ajaxsearchprosettings1_2.searchsettings .asp_option_inner label,
+div.asp_sb.asp_sb_1.searchsettings .asp_option_inner label,
+div.asp_s.asp_s_1.searchsettings .asp_option_inner label {
+              background-image: -webkit-linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+            background-image: -moz-linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+            background-image: -o-linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+            background-image: -ms-linear-gradient(180deg, rgb(34, 34, 34) 0%, rgb(69, 72, 77) 100%);
+            background-image: linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+        }
+
+    #ajaxsearchprosettings1_1.searchsettings .asp_option_inner label:after,
+    #ajaxsearchprosettings1_2.searchsettings .asp_option_inner label:after,
+    #ajaxsearchprobsettings1_1.searchsettings .asp_option_inner label:after,
+    #ajaxsearchprobsettings1_2.searchsettings .asp_option_inner label:after,
+div.asp_sb.asp_sb_1.searchsettings .asp_option_inner label:after,
+div.asp_s.asp_s_1.searchsettings .asp_option_inner label:after {
+    font-family: 'asppsicons2';
+    border: none;
+    content: "\e800";
+    display: block;
+    position: static;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    margin: 1px 0 0 0px !important;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+    #ajaxsearchprosettings1_1.searchsettings .asp_sett_scroll,
+    #ajaxsearchprosettings1_2.searchsettings .asp_sett_scroll,
+div.asp_s.asp_s_1.searchsettings .asp_sett_scroll {
+  max-height: 220px;
+  overflow: auto;
+}
+
+    #ajaxsearchprobsettings1_1.searchsettings .asp_sett_scroll,
+    #ajaxsearchprobsettings1_2.searchsettings .asp_sett_scroll,
+div.asp_sb.asp_sb_1.searchsettings .asp_sett_scroll {
+  max-height: 220px;
+  overflow: auto;
+}
+
+    #ajaxsearchprosettings1_1.searchsettings fieldset,
+    #ajaxsearchprosettings1_2.searchsettings fieldset,
+div.asp_s.asp_s_1.searchsettings fieldset {
+  width: 200px;
+  min-width: 200px;
+  max-width: 10000px;
+}
+
+    #ajaxsearchprobsettings1_1.searchsettings fieldset,
+    #ajaxsearchprobsettings1_2.searchsettings fieldset,
+div.asp_sb.asp_sb_1.searchsettings fieldset {
+  width: 200px;
+  min-width: 200px;
+  max-width: 10000px;
+}
+
+    #ajaxsearchprosettings1_1.searchsettings fieldset legend,
+    #ajaxsearchprosettings1_2.searchsettings fieldset legend,
+div.asp_s.asp_s_1.searchsettings fieldset legend {
+  padding: 0 0 0 10px;
+  margin: 0;
+  background: transparent;
+  font-weight:normal;font-family:'Open Sans';color:rgb(31, 31, 31);font-size:13px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+
+div.asp_s.asp_s_1.searchsettings fieldset .chosen-container,
+div.asp_sb.asp_sb_1.searchsettings fieldset .chosen-container {
+  min-width: 170px;
+}
+    #ajaxsearchprores1_1.isotopic .results .item .asp_content,
+    #ajaxsearchprores1_2.isotopic .results .item .asp_content,
+div.asp_r.asp_r_1.isotopic .results .item .asp_content {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    padding: 4px 6px;
+}
+
+    #ajaxsearchprores1_1.isotopic,
+    #ajaxsearchprores1_2.isotopic,
+div.asp_r.asp_r_1.isotopic {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: rgba(255, 255, 255, 0);
+}
+
+    #ajaxsearchprores1_1.isotopic .results .item,
+    #ajaxsearchprores1_2.isotopic .results .item,
+div.asp_r.asp_r_1.isotopic .results .item {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+    .rtl #ajaxsearchprores1_1.isotopic .results .asp_isotopic_item,
+    .rtl #ajaxsearchprores1_2.isotopic .results .asp_isotopic_item,
+.rtl div.asp_r.asp_r_1.isotopic .results .asp_isotopic_item {
+    -webkit-transition-property: right, top, -webkit-transform, opacity;
+    -moz-transition-property: right, top, -moz-transform, opacity;
+    -ms-transition-property: right, top, -ms-transform, opacity;
+    -o-transition-property: right, top, -o-transform, opacity;
+    transition-property: right, top, transform, opacity;
+}
+
+    #ajaxsearchprores1_1.isotopic .results .item.asp_gutter_bottom,
+    #ajaxsearchprores1_2.isotopic .results .item.asp_gutter_bottom,
+div.asp_r.asp_r_1.isotopic .results .item {
+    margin-bottom: 5px;
+}
+
+    #ajaxsearchprores1_1.isotopic .results .item .asp_content,
+    #ajaxsearchprores1_2.isotopic .results .item .asp_content,
+div.asp_r.asp_r_1.isotopic .results .item .asp_content {
+    background: rgba(0, 0, 0, 0.83);
+}
+
+/* Isotopic navigation */
+    #ajaxsearchprores1_1.isotopic>nav,
+    #ajaxsearchprores1_2.isotopic>nav,
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation,
+div.asp_r.asp_r_1.isotopic>nav,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation {
+    background: rgb(228, 228, 228);
+}
+
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation a.asp_prev,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation a.asp_prev,
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation a.asp_next,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation a.asp_next,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation a.asp_prev,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation a.asp_next {
+    background: rgb(76, 76, 76);
+}
+
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation a.asp_prev svg,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation a.asp_prev svg,
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation a.asp_next svg,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation a.asp_next svg,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation a.asp_prev svg,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation a.asp_next svg {
+    fill: rgb(255, 255, 255);
+}
+
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation ul li.asp_active,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation ul li.asp_active,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation ul li.asp_active {
+    background: rgb(76, 76, 76);
+}
+
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation ul li:hover,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation ul li:hover,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation ul li:hover {
+    background: rgb(76, 76, 76);
+}
+
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation ul li.asp_active,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation ul li.asp_active,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation ul li.asp_active {
+    background: rgb(244, 244, 244);
+}
+
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation ul li:hover,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation ul li:hover,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation ul li:hover {
+    background: rgb(244, 244, 244);
+}
+
+    #ajaxsearchprores1_1.isotopic nav.asp_navigation ul li span,
+    #ajaxsearchprores1_2.isotopic nav.asp_navigation ul li span,
+div.asp_r.asp_r_1.isotopic nav.asp_navigation ul li span {
+    color:  rgb(126, 126, 126);
+}/* Generated at: 2018-01-19 17:23:40 */
+div[id*='ajaxsearchpro3_'] div.asp_loader,
+div[id*='ajaxsearchpro3_'] div.asp_loader * {
+    /* display: none; */
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    /* vertical-align: middle !important; */
+    box-shadow: none;
+}
+
+div[id*='ajaxsearchpro3_'] div.asp_loader {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis:28px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+div[id*='ajaxsearchpro3_'] div.asp_loader-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* vertical-align: text-top; */
+    height: 100%;
+}
+
+@-webkit-keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+div[id*='ajaxsearchpro3_'] div.asp_simple-circle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    animation: rotate-simple 0.8s infinite linear;
+    -webkit-animation: rotate-simple 0.8s infinite linear;
+    border: 4px solid rgb(255, 255, 255);
+    border-right-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+div[id*='ajaxsearchprores3_'] .asp_res_loader div.asp_loader,
+div[id*='ajaxsearchprores3_'] .asp_res_loader div.asp_loader * {
+    /* display: none; */
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    /* vertical-align: middle !important; */
+    box-shadow: none;
+}
+
+div[id*='ajaxsearchprores3_'] .asp_res_loader div.asp_loader {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis:28px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+div[id*='ajaxsearchprores3_'] .asp_res_loader div.asp_loader-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* vertical-align: text-top; */
+    height: 100%;
+}
+
+@-webkit-keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+div[id*='ajaxsearchprores3_'] .asp_res_loader div.asp_simple-circle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    animation: rotate-simple 0.8s infinite linear;
+    -webkit-animation: rotate-simple 0.8s infinite linear;
+    border: 4px solid rgb(255, 255, 255);
+    border-right-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#ajaxsearchpro3_1 div.asp_loader, #ajaxsearchpro3_2 div.asp_loader,
+#ajaxsearchpro3_1 div.asp_loader *, #ajaxsearchpro3_2 div.asp_loader * {
+    /* display: none; */
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    /* vertical-align: middle !important; */
+    box-shadow: none;
+}
+
+#ajaxsearchpro3_1 div.asp_loader, #ajaxsearchpro3_2 div.asp_loader {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis:28px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#ajaxsearchpro3_1 div.asp_loader-inner, #ajaxsearchpro3_2 div.asp_loader-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* vertical-align: text-top; */
+    height: 100%;
+}
+
+@-webkit-keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+@keyframes rotate-simple {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+#ajaxsearchpro3_1 div.asp_simple-circle, #ajaxsearchpro3_2 div.asp_simple-circle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    animation: rotate-simple 0.8s infinite linear;
+    -webkit-animation: rotate-simple 0.8s infinite linear;
+    border: 4px solid rgb(255, 255, 255);
+    border-right-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes asp_an_fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes asp_an_fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.asp_an_fadeInDown {
+    -webkit-animation-name:  asp_an_fadeInDown;
+    animation-name:  asp_an_fadeInDown;
+}
+
+
+div.asp_r.asp_r_3,
+div.asp_r.asp_r_3 *,
+div.asp_m.asp_m_3,
+div.asp_m.asp_m_3 *,
+div.asp_s.asp_s_3,
+div.asp_s.asp_s_3 * {
+    -webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box; /* Firefox, other Gecko */
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 0;
+    border-radius: 0;
+    text-transform: none;
+    text-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+div.asp_r.asp_r_3,
+div.asp_m.asp_m_3,
+div.asp_s.asp_s_3 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Margin and padding gets wrecked if set with compatibility.. */
+div.asp_r.asp_r_3,
+div.asp_r.asp_r_3 *,
+div.asp_m.asp_m_3,
+div.asp_m.asp_m_3 *,
+div.asp_s.asp_s_3,
+div.asp_s.asp_s_3 * {
+    padding: 0;
+    margin: 0;
+}
+
+.wpdreams_clear {
+    clear: both;
+}
+
+    #ajaxsearchpro3_1,
+    #ajaxsearchpro3_2,
+div.asp_m.asp_m_3 {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: #d1eaff;
+                background-image: -moz-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -o-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -ms-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: radial-gradient(ellipse at center,  rgb(92, 183, 225), rgb(92, 183, 225));
+          overflow: hidden;
+  border:0px none rgb(141, 213, 239);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px #000000 ;}
+
+    #ajaxsearchpro3_1 .probox,
+    #ajaxsearchpro3_2 .probox,
+div.asp_m.asp_m_3 .probox {
+  margin: 0px;
+  height: 34px;
+              background-image: -moz-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -webkit-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -o-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: -ms-radial-gradient(center, ellipse cover,  rgb(92, 183, 225), rgb(92, 183, 225));
+            background-image: radial-gradient(ellipse at center,  rgb(92, 183, 225), rgb(92, 183, 225));
+          border:0px solid rgb(104, 174, 199);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px rgb(181, 181, 181) inset;}
+
+
+
+p[id*=asp-try-3] {
+    color: rgb(85, 85, 85) !important;
+    display: block;
+}
+
+div.asp_main_container+[id*=asp-try-3] {
+        width: 100%;
+}
+
+p[id*=asp-try-3] a {
+    color: rgb(255, 181, 86) !important;
+}
+
+p[id*=asp-try-3] a:after {
+    color: rgb(85, 85, 85) !important;
+    display: inline;
+    content: ',';
+}
+
+p[id*=asp-try-3] a:last-child:after {
+    display: none;
+}
+
+    #ajaxsearchpro3_1 .probox .proinput,
+    #ajaxsearchpro3_2 .probox .proinput,
+div.asp_m.asp_m_3 .probox .proinput {
+  font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+  flex-grow: 1;
+  order: 5;
+  /* Ipad and stuff.. */
+  -webkit-flex-grow: 1;
+  -webkit-order: 5;
+}
+
+    #ajaxsearchpro3_1 .probox .proinput input.orig,
+    #ajaxsearchpro3_2 .probox .proinput input.orig,
+div.asp_m.asp_m_3 .probox .proinput input.orig {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+    border: 0;
+    box-shadow: none;
+    height: 34px;
+    position: relative;
+    z-index: 2;
+    padding: 0 !important;
+    padding-top: 2px !important;
+    margin: -1px 0 0 -4px !important;
+    width: 100%;
+    background: transparent !important;
+}
+
+    #ajaxsearchpro3_1 .probox .proinput input.autocomplete,
+    #ajaxsearchpro3_2 .probox .proinput input.autocomplete,
+div.asp_m.asp_m_3 .probox .proinput input.autocomplete {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+    opacity: 0.25;
+    height: 34px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding: 0 !important;
+    margin: -1px 0 0 -4px !important;
+    margin-top: -34px !important;
+    width: 100%;
+    background: transparent !important;
+}
+
+    .rtl #ajaxsearchpro3_1 .probox .proinput input.orig,
+    .rtl #ajaxsearchpro3_2 .probox .proinput input.orig,
+    .rtl #ajaxsearchpro3_1 .probox .proinput input.autocomplete,
+    .rtl #ajaxsearchpro3_2 .probox .proinput input.autocomplete,
+.rtl div.asp_m.asp_m_3 .probox .proinput input.orig,
+.rtl div.asp_m.asp_m_3 .probox .proinput input.autocomplete {
+font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);line-height: normal;
+direction: rtl;
+text-align: right;
+}
+
+    .rtl #ajaxsearchpro3_1 .probox .proinput,
+    .rtl #ajaxsearchpro3_2 .probox .proinput,
+.rtl div.asp_m.asp_m_3 .probox .proinput {
+    /*float: right;*/
+    margin-right: 2px;
+}
+
+    .rtl #ajaxsearchpro3_1 .probox .proloading,
+    .rtl #ajaxsearchpro3_1 .probox .proclose,
+    .rtl #ajaxsearchpro3_2 .probox .proloading,
+    .rtl #ajaxsearchpro3_2 .probox .proclose,
+.rtl div.asp_m.asp_m_3 .probox .proloading,
+.rtl div.asp_m.asp_m_3 .probox .proclose {
+    order: 3;
+}
+
+
+div.asp_m.asp_m_3 .probox .proinput input.orig::-webkit-input-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+}
+div.asp_m.asp_m_3 .probox .proinput input.orig::-moz-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+}
+div.asp_m.asp_m_3 .probox .proinput input.orig:-ms-input-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+}
+div.asp_m.asp_m_3 .probox .proinput input.orig:-moz-placeholder {
+    font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    opacity: 0.85;
+    line-height: normal !important;
+}
+
+    #ajaxsearchpro3_1 .probox .proinput input.autocomplete,
+    #ajaxsearchpro3_2 .probox .proinput input.autocomplete,
+div.asp_m.asp_m_3 .probox .proinput input.autocomplete {
+  font-weight:normal;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    line-height: normal;
+    border: 0;
+    box-shadow: none;
+}
+
+    #ajaxsearchpro3_1 .probox .proloading,
+    #ajaxsearchpro3_1 .probox .proclose,
+    #ajaxsearchpro3_1 .probox .promagnifier,
+    #ajaxsearchpro3_1 .probox .prosettings,
+    #ajaxsearchpro3_2 .probox .proloading,
+    #ajaxsearchpro3_2 .probox .proclose,
+    #ajaxsearchpro3_2 .probox .promagnifier,
+    #ajaxsearchpro3_2 .probox .prosettings,
+div.asp_m.asp_m_3 .probox .proloading,
+div.asp_m.asp_m_3 .probox .proclose,
+div.asp_m.asp_m_3 .probox .promagnifier,
+div.asp_m.asp_m_3 .probox .prosettings {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  flex-grow: 0;
+  order: 7;
+    /* Ipad and stuff.. */
+    -webkit-flex: 0 0 34px;
+    -webkit-flex-grow: 0;
+    -webkit-order: 7;
+}
+
+    #ajaxsearchpro3_1 .probox .proclose svg,
+    #ajaxsearchpro3_2 .probox .proclose svg,
+div.asp_m.asp_m_3 .probox .proclose svg {
+     fill: rgb(254, 254, 254);
+     background: rgb(51, 51, 51);
+     box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.9);
+}
+
+	#ajaxsearchpro3_1 .probox .proloading,
+	#ajaxsearchpro3_2 .probox .proloading,
+div.asp_m.asp_m_3 .probox .proloading {
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    min-height: 34px;
+    max-width: 34px;
+    max-height: 34px;
+}
+
+	#ajaxsearchpro3_1 .probox .proloading .asp_loader,
+	#ajaxsearchpro3_2 .probox .proloading .asp_loader,
+div.asp_m.asp_m_3 .probox .proloading .asp_loader {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+	#ajaxsearchpro3_1 .probox .promagnifier,
+	#ajaxsearchpro3_2 .probox .promagnifier,
+div.asp_m.asp_m_3 .probox .promagnifier {
+	width: auto;
+	height: 34px;
+	flex: 0 0 auto;
+	order: 7;
+	/* Ipad and stuff.. */
+	-webkit-flex: 0 0 auto;
+	-webkit-order: 7;
+}
+
+
+	#ajaxsearchpro3_1 .probox .promagnifier div.innericon,
+	#ajaxsearchpro3_2 .probox .promagnifier div.innericon,
+div.asp_m.asp_m_3 .probox .promagnifier div.innericon {
+	width: 34px;
+	height: 34px;
+	float: right;
+}
+
+	#ajaxsearchpro3_1 .probox .promagnifier div.asp_text_button,
+	#ajaxsearchpro3_2 .probox .promagnifier div.asp_text_button,
+div.asp_m.asp_m_3 .probox .promagnifier div.asp_text_button {
+	width: auto;
+	height: 34px;
+	float: right;
+	margin: 0;
+		    padding: 0 10px 0 2px;
+		\'font-weight:normal;font-family:'Open Sans';color:rgba(51, 51, 51, 1);font-size:15px;line-height:auto;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);\';    /* to center the text, this must be identical with the height */
+    line-height: 34px;
+}
+
+    #ajaxsearchpro3_1 .probox .promagnifier .innericon svg,
+    #ajaxsearchpro3_2 .probox .promagnifier .innericon svg,
+div.asp_m.asp_m_3 .probox .promagnifier .innericon svg {
+  fill: rgb(255, 255, 255);
+}
+
+    #ajaxsearchpro3_1 .probox .prosettings .innericon svg,
+    #ajaxsearchpro3_2 .probox .prosettings .innericon svg,
+div.asp_m.asp_m_3 .probox .prosettings .innericon svg {
+  fill: rgb(255, 255, 255);
+}
+
+
+    #ajaxsearchpro3_1.asp_msie .probox .proloading,
+    #ajaxsearchpro3_2.asp_msie .probox .proloading,
+div.asp_m.asp_m_3.asp_msie .probox .proloading {
+    background-image: url("//dvdcover.com/wp-content/plugins/ajax-search-pro//img/loading/newload1.gif");
+    float: right;
+}
+
+    #ajaxsearchpro3_1 .probox .promagnifier,
+    #ajaxsearchpro3_2 .probox .promagnifier,
+div.asp_m.asp_m_3 .probox .promagnifier {
+        width: 34px;
+    height: 34px;
+              background-image: -webkit-linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -moz-linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -o-linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -ms-linear-gradient(180deg, rgb(70, 142, 190) 0%, rgb(70, 142, 190) 100%);
+            background-image: linear-gradient(180deg, rgb(70, 142, 190), rgb(70, 142, 190));
+          background-position:center center;
+  background-repeat: no-repeat;
+
+  order: 11;
+  /* Ipad and stuff fix */
+  -webkit-order: 11;
+  float: right; /* IE9, no flexbox */
+  border:0px solid rgb(0, 0, 0);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px rgba(255, 255, 255, 0.61) ;  cursor: pointer;
+  background-size: 100% 100%;
+
+  background-position:center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
+    #ajaxsearchpro3_1 .probox .prosettings,
+    #ajaxsearchpro3_2 .probox .prosettings,
+div.asp_m.asp_m_3 .probox .prosettings {
+  width: 34px;
+  height: 34px;
+              background-image: -webkit-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -moz-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -o-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -ms-linear-gradient(185deg, rgb(70, 142, 190) 0%, rgb(70, 142, 190) 100%);
+            background-image: linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+          background-position:center center;
+  background-repeat: no-repeat;
+  order: 10;
+  /* Ipad and stuff fix*/
+  -webkit-order: 10;
+  float: right; /* IE9, no flexbox */
+  border:0px solid rgb(104, 174, 199);border-radius:0px 0px 0px 0px;  box-shadow:0px 0px 0px 0px rgba(255, 255, 255, 0.63) ;  cursor: pointer;
+  background-size: 100% 100%;
+  align-self: flex-end;
+}
+
+
+    #ajaxsearchprores3_1,
+    #ajaxsearchprores3_2,
+div.asp_r.asp_r_3 {
+    position: static;
+    z-index: 1;
+}
+
+    #ajaxsearchprores3_1 .results .asp_nores .asp_keyword,
+    #ajaxsearchprores3_2 .results .asp_nores .asp_keyword,
+div.asp_r.asp_r_3 .results .asp_nores .asp_keyword {
+    padding: 0 6px;
+    cursor: pointer;
+    font-weight:normal;font-family:'Open Sans';color:rgb(74, 74, 74);font-size:13px;line-height:1.35em;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    font-weight: bold;
+}
+
+    #ajaxsearchprores3_1 .results .item,
+    #ajaxsearchprores3_2 .results .item,
+div.asp_r.asp_r_3 .results .item {
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+
+    #ajaxsearchprores3_1 .results .item.hovered,
+    #ajaxsearchprores3_2 .results .item.hovered,
+div.asp_r.asp_r_3 .results .item.hovered {
+              background-image: -moz-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -webkit-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -o-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: -ms-radial-gradient(center, ellipse cover,  rgb(245, 245, 245), rgb(245, 245, 245));
+            background-image: radial-gradient(ellipse at center,  rgb(245, 245, 245), rgb(245, 245, 245));
+        }
+
+    #ajaxsearchprores3_1 .results .item .asp_image,
+    #ajaxsearchprores3_2 .results .item .asp_image,
+div.asp_r.asp_r_3 .results .item .asp_image {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+    #ajaxsearchprores3_1 .results .item .asp_item_img,
+    #ajaxsearchprores3_2 .results .item .asp_item_img,
+div.asp_r.asp_r_3 .results .item .asp_item_img {
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+    #ajaxsearchprores3_1 .results .item .asp_item_overlay_img,
+    #ajaxsearchprores3_2 .results .item .asp_item_overlay_img,
+div.asp_r.asp_r_3 .results .item .asp_item_overlay_img {
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+    #ajaxsearchprores3_1 .results .item .asp_content,
+    #ajaxsearchprores3_2 .results .item .asp_content,
+div.asp_r.asp_r_3 .results .item .asp_content {
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    padding: 0 10px;
+}
+
+    #ajaxsearchprores3_1 .results .item .asp_content h3,
+    #ajaxsearchprores3_2 .results .item .asp_content h3,
+div.asp_r.asp_r_3 .results .item .asp_content h3 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  line-height: inherit;
+  font-weight:bold;font-family:'Lato';color:rgb(255, 255, 255);font-size:15px;line-height:20px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 .results .item .asp_content h3 a,
+    #ajaxsearchprores3_2 .results .item .asp_content h3 a,
+div.asp_r.asp_r_3 .results .item .asp_content h3 a {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  font-weight:bold;font-family:'Lato';color:rgb(255, 255, 255);font-size:15px;line-height:20px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 .results .item .asp_content h3 a:hover,
+    #ajaxsearchprores3_2 .results .item .asp_content h3 a:hover,
+div.asp_r.asp_r_3 .results .item .asp_content h3 a:hover {
+  font-weight:bold;font-family:'Lato';color:rgb(255, 255, 255);font-size:15px;line-height:20px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 .results .item div.etc,
+    #ajaxsearchprores3_2 .results .item div.etc,
+div.asp_r.asp_r_3 .results .item div.etc {
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.3em;
+  margin-bottom: 6px;
+}
+
+    #ajaxsearchprores3_1 .results .item .etc .asp_author,
+    #ajaxsearchprores3_2 .results .item .etc .asp_author,
+div.asp_r.asp_r_3 .results .item .etc .asp_author {
+  padding: 0;
+  font-weight:bold;font-family:'Open Sans';color:rgb(161, 161, 161);font-size:11px;line-height:13px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 .results .item .etc .asp_date,
+    #ajaxsearchprores3_2 .results .item .etc .asp_date,
+div.asp_r.asp_r_3 .results .item .etc .asp_date {
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-weight:normal;font-family:'Open Sans';color:rgb(173, 173, 173);font-size:11px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 .results .item p.desc,
+    #ajaxsearchprores3_2 .results .item p.desc,
+div.asp_r.asp_r_3 .results .item p.desc {
+  margin: 2px 0px;
+  padding: 0;
+  font-weight:normal;font-family:'Open Sans';color:rgb(74, 74, 74);font-size:13px;line-height:1.35em;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 .results .item div.asp_content,
+    #ajaxsearchprores3_2 .results .item div.asp_content,
+div.asp_r.asp_r_3 .results .item div.asp_content {
+    margin: 0px;
+    padding: 0;
+    font-weight:normal;font-family:'Open Sans';color:rgb(74, 74, 74);font-size:13px;line-height:1.35em;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 span.highlighted,
+    #ajaxsearchprores3_2 span.highlighted,
+div.asp_r.asp_r_3 span.highlighted {
+    font-weight: bold;
+    color: #d9312b;
+    background-color: #eee;
+    color: rgba(217, 49, 43, 1);
+    background-color: rgba(238, 238, 238, 1);
+}
+
+    #ajaxsearchprores3_1 p.showmore,
+    #ajaxsearchprores3_2 p.showmore,
+div.asp_r.asp_r_3 p.showmore {
+  text-align: center;
+  margin: 5px 0 0;
+  font-weight:normal;font-family:'Open Sans';color:rgb(5, 94, 148);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 p.showmore a,
+    #ajaxsearchprores3_2 p.showmore a,
+div.asp_r.asp_r_3 p.showmore a {
+    font-weight:normal;font-family:'Open Sans';color:rgb(5, 94, 148);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);    padding: 10px 5px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    text-align: center;
+}
+
+    #ajaxsearchprores3_1 .asp_group_header,
+    #ajaxsearchprores3_2 .asp_group_header,
+div.asp_r.asp_r_3 .asp_group_header {
+  background: #DDDDDD;
+  background: rgb(246, 246, 246);
+  border-radius: 3px 3px 0 0;
+  border-top: 1px solid rgb(248, 248, 248);
+  border-left: 1px solid rgb(248, 248, 248);
+  border-right: 1px solid rgb(248, 248, 248);
+  margin: 10px 0 -3px;
+  padding: 7px 0 7px 10px;
+  position: relative;
+  z-index: 1000;
+  font-weight:bold;font-family:'Open Sans';color:rgb(5, 94, 148);font-size:11px;line-height:13px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprores3_1 .asp_res_loader,
+    #ajaxsearchprores3_2 .asp_res_loader,
+div.asp_r.asp_r_3 .asp_res_loader {
+    background: rgb(255, 255, 255);
+    height: 200px;
+    padding: 10px;
+}
+
+    #ajaxsearchprores3_1.isotopic .asp_res_loader,
+    #ajaxsearchprores3_2.isotopic .asp_res_loader,
+div.asp_r.asp_r_3.isotopic .asp_res_loader {
+    background: rgba(255, 255, 255, 0);
+}
+
+    #ajaxsearchprores3_1 .asp_res_loader .asp_loader,
+    #ajaxsearchprores3_2 .asp_res_loader .asp_loader,
+div.asp_r.asp_r_3 .asp_res_loader .asp_loader {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+/* Search settings */
+    div.asp_s.asp_s_3.searchsettings,
+    div.asp_s.asp_s_3.searchsettings,
+div.asp_s.asp_s_3.searchsettings  {
+  direction: ltr;
+  padding: 0;
+              background-image: -webkit-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -moz-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -o-linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+            background-image: -ms-linear-gradient(185deg, rgb(70, 142, 190) 0%, rgb(70, 142, 190) 100%);
+            background-image: linear-gradient(185deg, rgb(70, 142, 190), rgb(70, 142, 190));
+          box-shadow:0px 0px 0px 0px rgb(0, 0, 0) ;;
+  max-width: 208px;
+  z-index: 2;
+}
+
+    #ajaxsearchprobsettings3_1.searchsettings,
+    #ajaxsearchprobsettings3_2.searchsettings,
+div.asp_sb.asp_sb_3.searchsettings {
+  max-width: none;
+}
+
+    div.asp_s.asp_s_3.searchsettings form,
+    div.asp_s.asp_s_3.searchsettings form,
+div.asp_s.asp_s_3.searchsettings form {
+  display: block;
+    -moz-column-width: 200px;
+    -moz-column-fill: balance;
+    -moz-column-gap: 0px;
+    -webkit-column-width: 200px;
+    -webkit-column-gap: 0;
+    column-width: 200px;
+    column-gap: 0;
+    column-fill: balance;
+}
+
+    div.asp_sb.asp_sb_3.searchsettings form,
+    div.asp_sb.asp_sb_3.searchsettings form,
+div.asp_sb.asp_sb_3.searchsettings form {
+  display: block;
+    -moz-column-width: 200px;
+    -moz-column-fill: balance;
+    -moz-column-gap: 0px;
+    -webkit-column-width: 200px;
+    -webkit-column-gap: 0;
+    column-width: 200px;
+    column-gap: 0;
+    column-fill: balance;
+}
+
+            div.asp_sb.asp_sb_3.searchsettings form>fieldset,
+        div.asp_sb.asp_sb_3.searchsettings form>fieldset,
+        div.asp_sb.asp_sb_3.searchsettings form>fieldset {
+      display: inline-block;
+      vertical-align: top;
+      float: none;
+    }
+            div.asp_s.asp_s_3.searchsettings form>fieldset,
+        div.asp_s.asp_s_3.searchsettings form>fieldset,
+        div.asp_s.asp_s_3.searchsettings form>fieldset {
+      display: inline-block;
+      vertical-align: top;
+      float: none;
+    }
+
+    #ajaxsearchprosettings3_1.searchsettings div.asp_option_label,
+    #ajaxsearchprosettings3_2.searchsettings div.asp_option_label,
+    #ajaxsearchprosettings3_1.searchsettings .asp_label,
+    #ajaxsearchprosettings3_2.searchsettings .asp_label,
+div.asp_s.asp_s_3.searchsettings div.asp_option_label,
+div.asp_s.asp_s_3.searchsettings .asp_label {
+  font-weight:bold;font-family:'Open Sans';color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+    #ajaxsearchprosettings3_1.searchsettings .asp_option_inner label,
+    #ajaxsearchprosettings3_2.searchsettings .asp_option_inner label,
+div.asp_sb.asp_sb_3.searchsettings .asp_option_inner label,
+div.asp_s.asp_s_3.searchsettings .asp_option_inner label {
+              background-image: -webkit-linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+            background-image: -moz-linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+            background-image: -o-linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+            background-image: -ms-linear-gradient(180deg, rgb(34, 34, 34) 0%, rgb(69, 72, 77) 100%);
+            background-image: linear-gradient(180deg, rgb(34, 34, 34), rgb(69, 72, 77));
+        }
+
+    #ajaxsearchprosettings3_1.searchsettings .asp_option_inner label:after,
+    #ajaxsearchprosettings3_2.searchsettings .asp_option_inner label:after,
+    #ajaxsearchprobsettings3_1.searchsettings .asp_option_inner label:after,
+    #ajaxsearchprobsettings3_2.searchsettings .asp_option_inner label:after,
+div.asp_sb.asp_sb_3.searchsettings .asp_option_inner label:after,
+div.asp_s.asp_s_3.searchsettings .asp_option_inner label:after {
+    font-family: 'asppsicons2';
+    border: none;
+    content: "\e800";
+    display: block;
+    position: static;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    margin: 1px 0 0 0px !important;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+    #ajaxsearchprosettings3_1.searchsettings .asp_sett_scroll,
+    #ajaxsearchprosettings3_2.searchsettings .asp_sett_scroll,
+div.asp_s.asp_s_3.searchsettings .asp_sett_scroll {
+  max-height: 220px;
+  overflow: auto;
+}
+
+    #ajaxsearchprobsettings3_1.searchsettings .asp_sett_scroll,
+    #ajaxsearchprobsettings3_2.searchsettings .asp_sett_scroll,
+div.asp_sb.asp_sb_3.searchsettings .asp_sett_scroll {
+  max-height: 220px;
+  overflow: auto;
+}
+
+    #ajaxsearchprosettings3_1.searchsettings fieldset,
+    #ajaxsearchprosettings3_2.searchsettings fieldset,
+div.asp_s.asp_s_3.searchsettings fieldset {
+  width: 200px;
+  min-width: 200px;
+  max-width: 10000px;
+}
+
+    #ajaxsearchprobsettings3_1.searchsettings fieldset,
+    #ajaxsearchprobsettings3_2.searchsettings fieldset,
+div.asp_sb.asp_sb_3.searchsettings fieldset {
+  width: 200px;
+  min-width: 200px;
+  max-width: 10000px;
+}
+
+    #ajaxsearchprosettings3_1.searchsettings fieldset legend,
+    #ajaxsearchprosettings3_2.searchsettings fieldset legend,
+div.asp_s.asp_s_3.searchsettings fieldset legend {
+  padding: 0 0 0 10px;
+  margin: 0;
+  background: transparent;
+  font-weight:normal;font-family:'Open Sans';color:rgb(31, 31, 31);font-size:13px;line-height:15px;text-shadow:0px 0px 0px rgba(255, 255, 255, 0);}
+
+
+div.asp_s.asp_s_3.searchsettings fieldset .chosen-container,
+div.asp_sb.asp_sb_3.searchsettings fieldset .chosen-container {
+  min-width: 170px;
+}
+    #ajaxsearchprores3_1.isotopic .results .item .asp_content,
+    #ajaxsearchprores3_2.isotopic .results .item .asp_content,
+div.asp_r.asp_r_3.isotopic .results .item .asp_content {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    padding: 4px 6px;
+}
+
+    #ajaxsearchprores3_1.isotopic,
+    #ajaxsearchprores3_2.isotopic,
+div.asp_r.asp_r_3.isotopic {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: rgba(255, 255, 255, 0);
+}
+
+    #ajaxsearchprores3_1.isotopic .results .item,
+    #ajaxsearchprores3_2.isotopic .results .item,
+div.asp_r.asp_r_3.isotopic .results .item {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+    .rtl #ajaxsearchprores3_1.isotopic .results .asp_isotopic_item,
+    .rtl #ajaxsearchprores3_2.isotopic .results .asp_isotopic_item,
+.rtl div.asp_r.asp_r_3.isotopic .results .asp_isotopic_item {
+    -webkit-transition-property: right, top, -webkit-transform, opacity;
+    -moz-transition-property: right, top, -moz-transform, opacity;
+    -ms-transition-property: right, top, -ms-transform, opacity;
+    -o-transition-property: right, top, -o-transform, opacity;
+    transition-property: right, top, transform, opacity;
+}
+
+    #ajaxsearchprores3_1.isotopic .results .item.asp_gutter_bottom,
+    #ajaxsearchprores3_2.isotopic .results .item.asp_gutter_bottom,
+div.asp_r.asp_r_3.isotopic .results .item {
+    margin-bottom: 5px;
+}
+
+    #ajaxsearchprores3_1.isotopic .results .item .asp_content,
+    #ajaxsearchprores3_2.isotopic .results .item .asp_content,
+div.asp_r.asp_r_3.isotopic .results .item .asp_content {
+    background: rgba(0, 0, 0, 0.83);
+}
+
+/* Isotopic navigation */
+    #ajaxsearchprores3_1.isotopic>nav,
+    #ajaxsearchprores3_2.isotopic>nav,
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation,
+div.asp_r.asp_r_3.isotopic>nav,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation {
+    background: rgb(228, 228, 228);
+}
+
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation a.asp_prev,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation a.asp_prev,
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation a.asp_next,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation a.asp_next,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation a.asp_prev,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation a.asp_next {
+    background: rgb(76, 76, 76);
+}
+
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation a.asp_prev svg,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation a.asp_prev svg,
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation a.asp_next svg,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation a.asp_next svg,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation a.asp_prev svg,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation a.asp_next svg {
+    fill: rgb(255, 255, 255);
+}
+
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation ul li.asp_active,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation ul li.asp_active,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation ul li.asp_active {
+    background: rgb(76, 76, 76);
+}
+
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation ul li:hover,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation ul li:hover,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation ul li:hover {
+    background: rgb(76, 76, 76);
+}
+
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation ul li.asp_active,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation ul li.asp_active,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation ul li.asp_active {
+    background: rgb(244, 244, 244);
+}
+
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation ul li:hover,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation ul li:hover,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation ul li:hover {
+    background: rgb(244, 244, 244);
+}
+
+    #ajaxsearchprores3_1.isotopic nav.asp_navigation ul li span,
+    #ajaxsearchprores3_2.isotopic nav.asp_navigation ul li span,
+div.asp_r.asp_r_3.isotopic nav.asp_navigation ul li span {
+    color:  rgb(126, 126, 126);
+}/* Generated at: 2018-01-19 17:23:40 */                -->
+            </style>
+    <script type="text/javascript">
+                if ( typeof _ASP !== "undefined" && _ASP !== null && typeof _ASP.initialize !== "undefined" )
+                    _ASP.initialize();
+            </script>
+
+
+    <script data-cfasync="false" type="text/javascript">window.google_analytics_uacct = "UA-111501173-17";</script>
+    <script data-cfasync="false" type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['e._setAccount', 'UA-111501173-17']);
+_gaq.push(['f._setAccount', 'UA-38339005-1']);
+_gaq.push(['e._setDomainName', 'dvdcover.com']);
+_gaq.push(['f._setDomainName', 'dvdcover.com']);
+_gaq.push(['e._setCustomVar',1,'template','old_site_gc',3]);
+_gaq.push(['e._setCustomVar',2,'t','126',3]);
+_gaq.push(['e._setCustomVar',3,'rid','0',2]);
+_gaq.push(['e._setCustomVar',4,'bra','mod6',3]);
+_gaq.push(['e._setAllowAnchor',true]);
+_gaq.push(['e._setSiteSpeedSampleRate', 10]);
+_gaq.push(['f._setCustomVar',1,'template','old_site_gc',3]);
+_gaq.push(['f._setCustomVar',2,'domain','dvdcover.com',3]);
+_gaq.push(['f._setSiteSpeedSampleRate', 20]);
+_gaq.push(['e._trackPageview']);
+_gaq.push(['f._trackPageview']);
+
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    <script type="text/javascript">var ezouid = "95908634";</script><base href="https://dvdcover.com/avatar-2009-r1-dvd-cover/"><script type='text/javascript'>
+var ezoTemplate = 'old_site_gc';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script>
+    <script type='text/javascript'>
+var soc_app_id = '0';
+var did = 58771;
+var ezdomain = 'dvdcover.com';
+var ezoicSearchable = 1;
+</script>
+
+
+    <script type="text/javascript" data-cfasync="false">var _ezaq = {"ab_test_id":"mod6","ab_test_val":"","ad_cache_level":0,"adgroup_rank_id":-1,"browser":"Chrome","browser_version":63,"country":"GB","days_since_last_visit":0,"device_height":528,"device_width":1280,"domain_id":58771,"engaged_time_visit":244,"ezcache_level":0,"forensiq_score":-1,"form_factor_id":1,"ip":"88.98.200.151","is_bot":0,"is_return_visitor":true,"landing_page_url":"https://dvdcover.com/avatar-2009-r1-dvd-cover/","last_page_load":"1516382149413","last_pageview_id":"82a5f989-455e-46d6-6cf4-cf2a112be243","lt_cache_level":0,"os":"MacOSX","page_ad_positions":"","page_view_id":"21947f62-9dc4-4152-7d42-4b7ccedcd35d","pv_event_count":0,"referrer_id":0,"region":"eu-west-1","serverid":"34.243.139.160:13765","t_epoch":1516382621,"template_id":126,"time_on_site_visit":7001,"url":"https://dvdcover.com/avatar-2009-r1-dvd-cover/","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36","user_id":95908634,"visit_id":41594625};var _ezExtraQueries = "&ez_orig=1";</script><script data-cfasync='false' type="text/javascript" src="/detroitchicago/rochester.js?cb=172-1&v=8" async></script><script data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl() {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = "ezux_lpl_58771=" + new Date().getTime() + "|21947f62-9dc4-4152-7d42-4b7ccedcd35d; " + expires;
+}
+function attach_ezolpl() {
+    if(window.attachEvent) {
+        window.attachEvent('onload', create_ezolpl);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl();
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl;
+        }
+    }
+}
+attach_ezolpl();
+</script></head>
+<body class="post-template-default single single-post postid-132010 single-format-standard pmpro-body-has-access" id="totop">
+<header class=" ">
+    <div class="container clearfix">
+        <div class="left-part">
+            <nav class="menu-categories dropel">
+                <a href="#" onclick="return false;" class="icon-menu-categories tooltip" title="Categories">Categories</a>
+                <div class="dropdown">
+                    <div class="dropdown-wrapper arrow-up-left">
+                        <ul class="categories-list">
+                            <li class="cat-item cat-item-13550"><a href="https://dvdcover.com/4k-covers/" title="4k movie covers">4K Covers</a>
+                            </li>
+                            <li class="cat-item cat-item-13549"><a href="https://dvdcover.com/anime-covers/" title="free anime dvd &amp; blu-ray covers">Anime Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13547"><a href="https://dvdcover.com/czech-covers-labels/" title="Free czech dvd covers &amp; labels ready to download and print.">Czech Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13539"><a href="https://dvdcover.com/dl-movie-dvd-covers-labels/">DL Movie DVD Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13548"><a href="https://dvdcover.com/dutch-covers-labels/">Dutch Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13543"><a href="https://dvdcover.com/german-blu-ray-covers/">German Blu-Ray Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13544"><a href="https://dvdcover.com/german-console-covers/">German Console Covers</a>
+                            </li>
+                            <li class="cat-item cat-item-13542"><a href="https://dvdcover.com/german-dvd-covers/">German DVD Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-12802"><a href="https://dvdcover.com/hd-dvd-movie/">HD DVD Movie Covers</a>
+                            </li>
+                            <li class="cat-item cat-item-7"><a href="https://dvdcover.com/blu-ray-covers/" title="Download free blu-ray covers for your favorite movies and more.">Movie Blu-Ray Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-3"><a href="https://dvdcover.com/movie-dvd/" title="Download free dvd covers for your favorite movies. Online movie DVD Cover art archive database.">Movie DVD Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13538"><a href="https://dvdcover.com/music-blu-ray/" title="Free Music Blu-Ray DVD Covers &amp; Labels">Music Blu-Ray Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13537"><a href="https://dvdcover.com/music-cd/" title="Free music cd covers &amp; labels">Music CD Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13003"><a href="https://dvdcover.com/music-dvd/" title="Download free Music DVD Covers for your favorite dvd albums.">Music DVD Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13545"><a href="https://dvdcover.com/nordic-covers-labels/" title="Free nordic dvd and blu-ray covers &amp; labels.">Nordic Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-8"><a href="https://dvdcover.com/pc-games/" title="Free PC Games DVD Covers">PC Games DVD Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-1086"><a href="https://dvdcover.com/pc-software/" title="Download free PC Software DVD Covers for your favorite programs.">PC Software DVD Covers</a>
+                            </li>
+                            <li class="cat-item cat-item-11"><a href="https://dvdcover.com/playstation-3/" title="Download Free PlayStation 3 DVD Covers for your favorite console games.">Playstation 3 Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13534"><a href="https://dvdcover.com/ps4-dvd-covers/" title="Free playstation 4 dvd covers &amp; dvd labels.">Playstation 4 Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13546"><a href="https://dvdcover.com/swedish-covers-labels/" title="Free swedish dvd covers &amp; blu-ray covers and labels ready to download and print.">Swedish Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-1186"><a href="https://dvdcover.com/tv-series/" title="Download free dvd covers for your favorite tv series and tv shows.">TV Series DVD Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-12"><a href="https://dvdcover.com/wii/" title="Download free Wii DVD Covers for your favorite games.">Wii Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13536"><a href="https://dvdcover.com/wii-u/" title="Free wii-u dvd covers &amp; labels in high quality ready to download and print.">Wii U Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-14"><a href="https://dvdcover.com/xbox-360/" title="Download free dvd covers for your favorite xbox 360 games.">Xbox 360 Covers &amp; Labels</a>
+                            </li>
+                            <li class="cat-item cat-item-13535"><a href="https://dvdcover.com/xbox-one-covers/" title="Free xbox One dvd covers &amp; labels ready to download and print.">Xbox One Covers &amp; Labels</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="search-box clearfix dropel">
+                <a href="#" onclick="return false;" class="icon-zoom">Search</a>
+                <div class="dropdown">
+                    <div class="dropdown-wrapper arrow-up-left">
+                        <form action="https://dvdcover.com/" method="get">
+                            <input type="text" name="s" value="Search">
+                            <input type="submit" value="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="logo"> <a href="https://dvdcover.com/" title="DVDCover.Com">
+            <img src="https://dvdcover.com/wp-content/uploads/2017/11/DVDCOVER.png" alt="DVDCover.Com">
+        </a>
+        </p> <div class="right-part">
+        <div class="log-in-out dropel">
+            <a href="https://www.freedvdcover.com/login" title="Sign In" class="icon-login tooltip">Sign in</a>
+        </div>
+    </div>
+    </div>
+</header>
+<section id="content">
+    <div class="container clearfix">
+        <div class="banner banner-position-1">
+
+            <div id="ezoic-pub-ad-placeholder-102">
+                <style>
+.responsive_1 { width: 320px; height: 100px; }
+@media(min-width: 500px) { .responsive_1 { width: 468px; height: 60px; } }
+@media(min-width: 800px) { .responsive_1 { width: 728px; height: 90px; } }
+@media(min-width: 970px) { .responsive_1 { width: 970px; height: 250px; } }
+</style>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                <ins class="adsbygoogle responsive_1" style="display:inline-block" data-ad-client="ca-pub-6068759045745683" data-ad-slot="2734837971"></ins>
+                <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+
+
+            <div id="ezoic-pub-ad-placeholder-111">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6068759045745683" data-ad-slot="1999793578" data-ad-format="link"></ins>
+                <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+        </div>
+
+        <div class="postWrap">
+            <div class="post-132010 post type-post status-publish format-standard has-post-thumbnail hentry category-movie-dvd pmpro-has-access">
+                <div class="contentbox">
+                    <div class="topbar">
+                        <ul class="navbtns">
+                            <li>
+                                <a href="https://dvdcover.com/annabelle-creation-2017-r1-custom-dvd-cover/" rel="prev">Previous cover</a> </li>
+                            <li>
+                                <a href="https://dvdcover.com/baby-einstein-baby-da-vinci-2004-r1-dvd-cover/" rel="next">Next cover</a> </li>
+                        </ul>
+                        <p class="space border-color-5">&nbsp;</p>
+                    </div>
+                    <p class="featured-image">
+                        <img src="https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar-720x483.jpg" width="720" height="483" alt="Avatar (2009) R1 DVD Cover">
+                    </p>
+                    <i>This cover has been viewed 189 times. Vote & check the gallery bellow or leave a comment.</i>&nbsp;
+                    <h1 class="title-3 ">
+                        <a href="https://dvdcover.com/avatar-2009-r1-dvd-cover/">Avatar (2009) R1 DVD Cover</a>
+                    </h1>
+                    <div class="metabar data clearfix">
+                        <ul class="postmetas">
+                            <li class="tooltip" title="Post date"><span class="icon-post-date-2">19.12.2017</span></li>
+                            <li><span class="icon-author"><a href="https://dvdcover.com/author/marion_the_librarian/" title="Posts by Marion_The_Librarian" rel="author">Marion_The_Librarian</a></span></li>
+                            <li class="tooltip" title="Total comments"><span class="icon-total-comments-2">0</span></li>
+                        </ul>
+                        <ul class="social-media-icons clearfix">
+                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://dvdcover.com/avatar-2009-r1-dvd-cover/" class="border-color-3 icon-facebook tooltip" title="Share on Facebook" target="_blank">Facebook</a></li>
+                            <li><a href="https://plus.google.com/share?url=https://dvdcover.com/avatar-2009-r1-dvd-cover/" class="border-color-1 icon-gplus tooltip" title="Share on Google+" target="_blank">Google+</a></li>
+                            <li><a href="https://twitter.com/share?url=https://dvdcover.com/avatar-2009-r1-dvd-cover/" class="border-color-4 icon-twitter tooltip" title="Share on Twitter" target="_blank">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="banner banner-position-3">
+
+                        <div id="ezoic-pub-ad-placeholder-110"></div>
+
+                        <div id="ezoic-pub-ad-placeholder-103">
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6068759045745683" data-ad-slot="1738986772" data-ad-format="link"></ins>
+                            <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                        </div><br />
+
+                    </div>
+
+                    <h3>You can check the GALLERY bellow, don't forget to leave a comment:</h3>
+                    <div class="textbox clearfix">
+                        <style type='text/css'>
+			#gallery-2 {
+				margin: auto;
+			}
+			#gallery-2 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 33%;
+			}
+			#gallery-2 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-2 .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		</style>
+                        <div id='gallery-2' class='gallery galleryid-132010 gallery-columns-3 gallery-size-medium'><dl class='gallery-item'>
+                            <dt class='gallery-icon landscape'>
+                                <a href='https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar.jpg'><img width="300" height="201" src="https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar-300x201.jpg" class="attachment-medium size-medium" alt="" aria-describedby="gallery-2-132011" srcset="https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar-300x201.jpg 300w, https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar-720x483.jpg 720w, https://dvdcover.com/wp-content/uploads/2017/12/2017-12-19_5a396305d47c4_DVD-Avatar-236x158.jpg 236w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                            </dt>
+                            <dd class='wp-caption-text gallery-caption' id='gallery-2-132011'>
+                                4264 × 2860
+                            </dd></dl>
+                            <br style='clear: both' />
+                        </div>
+                    </div>
+                    <div id="spr_container"><div class="spr_visual_container"><div id="spr_shapes"><span class="spr_rating_piece spr_ys_full_voted"></span> <span class="spr_rating_piece spr_ys_full_voted"></span> <span class="spr_rating_piece spr_ys_full_voted"></span> <span class="spr_rating_piece spr_ys_full_voted"></span> <span class="spr_rating_piece spr_ys_full_voted"></span> </div><span id="spr_votes">1 vote</span></div></div><div class="spr_hidden" itemscope="" itemtype="http://schema.org/Product"><meta itemprop="name" content="Avatar (2009) R1 DVD Cover"><div class="spr_hidden" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating"><meta itemprop="bestRating" content="5"><meta itemprop="ratingValue" content="5"><meta itemprop="ratingCount" content="1"></div></div>
+                    <div class="banner banner-position-3">
+
+                        <div id="ezoic-pub-ad-placeholder-104">
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                            <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-6068759045745683" data-ad-slot="8981527713"></ins>
+                            <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                        </div>
+                    </div>
+
+                    <p class="categories">Categories: &nbsp; <a href="https://dvdcover.com/movie-dvd/" rel="category tag">Movie DVD Covers &amp; Labels</a></p>
+                    <div class="metabar clearfix">
+                        <h4 class="title-5">Comments</h4>
+                    </div>
+
+                    <div id="respond" class="comment-respond">
+                        <h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/avatar-2009-r1-dvd-cover/#respond" style="display:none;">Click here to cancel reply.</a></small></h3> <form action="https://dvdcover.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+                        <p class="icon">
+                            <img alt='' src='https://secure.gravatar.com/avatar/?s=40&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=80&#038;d=mm&#038;r=g 2x' class='avatar avatar-40 photo avatar-default' height='40' width='40' /> </p>
+                        <p class="comment-form-comment"><textarea id="comment" name="comment" placeholder="Comment " aria-required="true"></textarea></p><p class="comment-form-author"><input id="author" placeholder="Name *" name="author" type="text" value="" aria-required='true'></p>
+                        <p class="comment-form-email"><input id="email" placeholder="Email *" name="email" type="text" value="" aria-required='true'></p>
+                        <p class="comment-form-url"><input id="url" name="url" placeholder="Website " type="text" value=""></p>
+                        <div class="gglcptch gglcptch_v2"><div id="gglcptch_recaptcha_657033881" class="gglcptch_recaptcha"></div>
+                            <noscript>
+                                <div style="width: 302px;">
+                                    <div style="width: 302px; height: 422px; position: relative;">
+                                        <div style="width: 302px; height: 422px; position: absolute;">
+                                            <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcjCfYSAAAAANPHFoHi8e3ydy9Bb0qiTzZ5zgiA" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;"></iframe>
+                                        </div>
+                                    </div>
+                                    <div style="border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px; height: 60px; width: 300px;">
+                                        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px !important; height: 40px !important; border: 1px solid #c1c1c1 !important; margin: 10px 25px !important; padding: 0px !important; resize: none !important;"></textarea>
+                                    </div>
+                                </div>
+                            </noscript></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='132010' id='comment_post_ID' />
+                        <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                    </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f791737db7" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="114" /></p> </form>
+                    </div>
+
+                    <div class="banner banner-position-3">
+
+                        <div id="ezoic-pub-ad-placeholder-107"></div>
+
+                    </div>
+                    <div class="crp_related "><h3>Related Covers:</h3><ul><li><a href="https://dvdcover.com/avatar-2009-r2-swedish-retail-blu-ray-cover-custom-label/"><img src="https://dvdcover.com/wp-content/uploads/2017/03/2017-03-08_58c050a5746c8_Avatar_swe_retail_Blu-Ray_GoZmit-150x150.jpg" alt="Avatar (2009) R2 Swedish Retail Blu-Ray Cover + Custom Label" title="Avatar (2009) R2 Swedish Retail Blu-Ray Cover + Custom Label" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar (2009) R2 Swedish Retail Blu-Ray Cover + Custom Label</span></a></li><li><a href="https://dvdcover.com/avatar-2009-r2-swedish-retail-dvd-cover-custom-label/"><img src="https://dvdcover.com/wp-content/uploads/2017/03/2017-03-08_58c050daed62d_Avatar_swe_retail_DVD_GoZmit-150x150.jpg" alt="Avatar (2009) R2 Swedish Retail DVD Cover + Custom Label" title="Avatar (2009) R2 Swedish Retail DVD Cover + Custom Label" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar (2009) R2 Swedish Retail DVD Cover + Custom Label</span></a></li><li><a href="https://dvdcover.com/avatar-aufbruch-nach-pandora-2009-r2-german-custom-cover-label/"><img src="https://dvdcover.com/wp-content/uploads/2016/07/2016-07-11_5784195306b0a_Avatar-AufbruchNachPandora-Cover2-2-150x150.jpg" alt="Avatar Aufbruch nach Pandora (2009) R2 German Custom Cover &#038; Label" title="Avatar Aufbruch nach Pandora (2009) R2 German Custom Cover &#038; Label" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar Aufbruch nach Pandora (2009) R2 German Custom&hellip;</span></a></li><li><a href="https://dvdcover.com/avatar-2009-r2-german/"><img src="https://dvdcover.com/wp-content/uploads/freedvdcover_avatar_-_version_3-1-150x150.jpg" alt="Avatar (2009) R2 German" title="Avatar (2009) R2 German" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar (2009) R2 German</span></a></li><li><a href="https://dvdcover.com/avatar-aufbruch-nach-pandora-2009-r2-german-covers/"><img src="https://dvdcover.com/wp-content/uploads/2016/04/2016-04-08_570809cd509ee_avatar_-_version_3-150x150.jpg" alt="Avatar &#8211; Aufbruch nach Pandora (2009) R2 German Covers" title="Avatar &#8211; Aufbruch nach Pandora (2009) R2 German Covers" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar &#8211; Aufbruch nach Pandora (2009) R2 German Covers</span></a></li><li><a href="https://dvdcover.com/avatar-the-last-airbender-the-complete-book-2-collection-2007-r1-dvd-cover/"><img src="https://dvdcover.com/wp-content/uploads/2017/11/2017-11-20_5a1343cd2396c_DVD-AvatarBook2-150x150.jpg" alt="Avatar, the Last Airbender: The Complete Book 2 Collection (2007) R1 DVD Cover" title="Avatar, the Last Airbender: The Complete Book 2 Collection (2007) R1 DVD Cover" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar, the Last Airbender: The Complete Book 2&hellip;</span></a></li><li><a href="https://dvdcover.com/avatar-the-last-airbender-book-1-water-volume-1-2006-r1-cover/"><img src="https://dvdcover.com/wp-content/uploads/2017/07/2017-07-18_596e5d98dafc8_DVD-AvatarB1V1-150x150.jpg" alt="Avatar, the Last Airbender: Book 1: Water Volume 1 (2006) R1 Cover" title="Avatar, the Last Airbender: Book 1: Water Volume 1 (2006) R1 Cover" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar, the Last Airbender: Book 1: Water Volume 1&hellip;</span></a></li><li><a href="https://dvdcover.com/avatar-the-last-airbender-the-complete-book-3-collection-2013-r1-dvd-cover/"><img src="https://dvdcover.com/wp-content/uploads/2017/11/2017-11-20_5a1344be8d9b9_DVD-AvatarBook3-150x150.jpg" alt="Avatar, the Last Airbender: The Complete Book 3 Collection (2013) R1 DVD Cover" title="Avatar, the Last Airbender: The Complete Book 3 Collection (2013) R1 DVD Cover" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar, the Last Airbender: The Complete Book 3&hellip;</span></a></li><li><a href="https://dvdcover.com/avatar-the-last-airbender-book-1-water-volume-2-2006-r1-cover/"><img src="https://dvdcover.com/wp-content/uploads/2017/07/2017-07-18_596e5dc95cabf_DVD-AvatarB1V2-150x150.jpg" alt="Avatar, the Last Airbender: Book 1: Water Volume 2 (2006) R1 Cover" title="Avatar, the Last Airbender: Book 1: Water Volume 2 (2006) R1 Cover" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar, the Last Airbender: Book 1: Water Volume 2&hellip;</span></a></li><li><a href="https://dvdcover.com/avatar-the-last-airbender-book-1-water-volume-3-2006-r1-cover/"><img src="https://dvdcover.com/wp-content/uploads/2017/07/2017-07-18_596e5df2c5914_DVD-AvatarB1V3-150x150.jpg" alt="Avatar, the Last Airbender: Book 1: Water Volume 3 (2006) R1 Cover" title="Avatar, the Last Airbender: Book 1: Water Volume 3 (2006) R1 Cover" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar, the Last Airbender: Book 1: Water Volume 3&hellip;</span></a></li><li><a href="https://dvdcover.com/avatar-the-last-airbender-book-1-water-volume-4-2006-r1-cover/"><img src="https://dvdcover.com/wp-content/uploads/2017/07/2017-07-18_596e5e15d06d9_DVD-AvatarB1V4-150x150.jpg" alt="Avatar, the Last Airbender: Book 1: Water Volume 4 (2006) R1 Cover" title="Avatar, the Last Airbender: Book 1: Water Volume 4 (2006) R1 Cover" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar, the Last Airbender: Book 1: Water Volume 4&hellip;</span></a></li><li><a href="https://dvdcover.com/avatar-the-last-airbender-book-1-water-volume-5-2006-r1-cover/"><img src="https://dvdcover.com/wp-content/uploads/2017/07/2017-07-18_596e5e619a425_DVD-AvatarB1V5-150x150.jpg" alt="Avatar, the Last Airbender: Book 1: Water Volume 5 (2006) R1 Cover" title="Avatar, the Last Airbender: Book 1: Water Volume 5 (2006) R1 Cover" width="150" height="150" class="crp_thumb crp_featured" /><span class="crp_title">Avatar, the Last Airbender: Book 1: Water Volume 5&hellip;</span></a></li></ul><div class="crp_clear"></div></div>
+                    <div id="ezoic-pub-ad-placeholder-105"></div>
+
+                </div>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="contentbox"><div class="menu-pages-container"><ul id="menu-pages" class="menu"><li id="menu-item-23196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23196"><a href="https://www.freedvdcover.com/">Home</a></li>
+                <li id="menu-item-23217" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23217"><a href="https://dvdcover.com/register/">Register/Login</a></li>
+                <li id="menu-item-67629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67629"><a href="https://dvdcover.com/membership-account/">Membership</a></li>
+                <li id="menu-item-74308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74308"><a href="https://dvdcover.com/search/">Search</a></li>
+                <li id="menu-item-126151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126151"><a href="https://cdcovers.io">CD Covers</a></li>
+                <li id="menu-item-126013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126013"><a href="https://print.dvdcover.com">Print DVD &#038; CD Covers</a></li>
+                <li id="menu-item-129232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-129232"><a href="https://fbcover.com">Facebook Covers</a></li>
+            </ul></div></div><div class="contentbox"> <div class="execphpwidget">
+            <div id="ezoic-pub-ad-placeholder-114">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6068759045745683" data-ad-slot="7688986370" data-ad-format="auto"></ins>
+                <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+
+        </div>
+        </div>
+
+            <div class="contentbox">
+                <h4 class="title-1 border-color-2">Last 7 Days &#8211; 10 Popular Covers</h4>
+                <ul class="wpp-list wpp-list-with-thumbnails">
+                    <li>
+                        <a href="https://dvdcover.com/horizon-zero-dawn-2017-pal-ps4-cover-label/" title="Horizon: Zero Dawn (2017) PAL PS4 Cover &#038; Label" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/119607-featured-75x75.jpg" width="75" height="75" alt="Horizon: Zero Dawn (2017) PAL PS4 Cover &amp; Label" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/horizon-zero-dawn-2017-pal-ps4-cover-label/" title="Horizon: Zero Dawn (2017) PAL PS4 Cover &#038; Label" class="wpp-post-title" target="_self">Horizon: Zero Dawn (2017) PAL PS4 Cover &#038; Label</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">500 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/american-psycho-2000-r1-blu-ray-cover-label/" title="American Psycho (2000) R1 Blu-Ray Cover &#038; Label" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/132955-featured-75x75.jpg" width="75" height="75" alt="American Psycho (2000) R1 Blu-Ray Cover &amp; Label" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/american-psycho-2000-r1-blu-ray-cover-label/" title="American Psycho (2000) R1 Blu-Ray Cover &#038; Label" class="wpp-post-title" target="_self">American Psycho (2000) R1 Blu-Ray Cover &#038; Label</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">400 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/dunkirk-2017-2017-r2-german-blu-ray-cover-label/" title="DUNKIRK (2017) (2017) R2 German Blu-Ray Cover &#038; Label" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/131789-featured-75x75.jpg" width="75" height="75" alt="DUNKIRK (2017) (2017) R2 German Blu-Ray Cover &amp; Label" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/dunkirk-2017-2017-r2-german-blu-ray-cover-label/" title="DUNKIRK (2017) (2017) R2 German Blu-Ray Cover &#038; Label" class="wpp-post-title" target="_self">DUNKIRK (2017) (2017) R2 German Blu-Ray Cover &#038; Label</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">400 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/kingsman-the-golden-circle-2017-r1-blu-ray-cover-labels/" title="Kingsman: The Golden Circle (2017) R1 Blu-Ray Cover &#038; Labels" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/132169-featured-75x75.jpg" width="75" height="75" alt="Kingsman: The Golden Circle (2017) R1 Blu-Ray Cover &amp; Labels" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/kingsman-the-golden-circle-2017-r1-blu-ray-cover-labels/" title="Kingsman: The Golden Circle (2017) R1 Blu-Ray Cover &#038; Labels" class="wpp-post-title" target="_self">Kingsman: The Golden Circle (2017) R1 Blu-Ray Cover &#038; Labels</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">400 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/ant-man-2015-custom-dvd-cover/" title="Ant-Man (2015) Custom DVD Cover" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/38366-featured-75x75.jpg" width="75" height="75" alt="Ant-Man (2015) Custom DVD Cover" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/ant-man-2015-custom-dvd-cover/" title="Ant-Man (2015) Custom DVD Cover" class="wpp-post-title" target="_self">Ant-Man (2015) Custom DVD Cover</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">400 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/batman-v-superman-2016-r1-dvd-cover/" title="Batman V Superman (2016) R1 DVD Cover" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/132806-featured-75x75.jpg" width="75" height="75" alt="Batman V Superman (2016) R1 DVD Cover" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/batman-v-superman-2016-r1-dvd-cover/" title="Batman V Superman (2016) R1 DVD Cover" class="wpp-post-title" target="_self">Batman V Superman (2016) R1 DVD Cover</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">300 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/insidiousthe-last-key-2018-r1-custom-dvd-cover/" title="INSIDIOUsTHE LAST KEY (2018) R1 Custom DVD Cover" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/133016-featured-75x75.jpg" width="75" height="75" alt="INSIDIOUsTHE LAST KEY (2018) R1 Custom DVD Cover" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/insidiousthe-last-key-2018-r1-custom-dvd-cover/" title="INSIDIOUsTHE LAST KEY (2018) R1 Custom DVD Cover" class="wpp-post-title" target="_self">INSIDIOUsTHE LAST KEY (2018) R1 Custom DVD Cover</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">300 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/batman-collection-10-1966-2017-r1-custom-blu-ray-cover/" title="Batman Collection (10) (1966-2017) R1 Custom Blu-Ray Cover" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/133109-featured-75x75.jpg" width="75" height="75" alt="Batman Collection (10) (1966-2017) R1 Custom Blu-Ray Cover" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/batman-collection-10-1966-2017-r1-custom-blu-ray-cover/" title="Batman Collection (10) (1966-2017) R1 Custom Blu-Ray Cover" class="wpp-post-title" target="_self">Batman Collection (10) (1966-2017) R1 Custom Blu-Ray Cover</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">300 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/american-assassin-2017-r1-custom-dvd-cover-label/" title="American Assassin (2017) R1 CUSTOM DVD Cover &#038; Label" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/131491-featured-75x75.jpg" width="75" height="75" alt="American Assassin (2017) R1 CUSTOM DVD Cover &amp; Label" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/american-assassin-2017-r1-custom-dvd-cover-label/" title="American Assassin (2017) R1 CUSTOM DVD Cover &#038; Label" class="wpp-post-title" target="_self">American Assassin (2017) R1 CUSTOM DVD Cover &#038; Label</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">300 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                    <li>
+                        <a href="https://dvdcover.com/star-wars-episode-vii-the-force-awakens-2015-r2-custom-dvd-cover/" title="Star Wars Episode VII &#8211; The Force Awakens (2015) R2 Custom DVD Cover" target="_self"><img src="https://dvdcover.com/wp-content/uploads/wordpress-popular-posts/58346-featured-75x75.jpg" width="75" height="75" alt="Star Wars Episode VII - The Force Awakens (2015) R2 Custom DVD Cover" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>
+                        <a href="https://dvdcover.com/star-wars-episode-vii-the-force-awakens-2015-r2-custom-dvd-cover/" title="Star Wars Episode VII &#8211; The Force Awakens (2015) R2 Custom DVD Cover" class="wpp-post-title" target="_self">Star Wars Episode VII &#8211; The Force Awakens (2015) R2 Custom DVD Cover</a>
+                        <span class="wpp-meta post-stats"><span class="wpp-views">200 views</span> | <span class="wpp-comments">0 comments</span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="banner-position-float">
+
+                <div id="ezoic-pub-ad-placeholder-106">
+                </div>
+
+            </div>
+        </aside>
+    </div>
+</section>
+<input type="checkbox" id="toggle-footer" class="hide">
+<footer>
+    <a href="#totop" class="scrolltotop">Scroll to Top</a>
+    <div class="toggler">
+        <label for="toggle-footer">&nbsp;</label>
+    </div>
+    <div class="footerwrapper">
+        <div class="footerbar">
+            <div class="container">
+                <div class="container-cell">
+                    <div class="footer-widgets">
+                        <div class="footer-widget"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-126008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126008"><a href="https://dvdcover.com/contact/">Contact</a></li>
+                            <li id="menu-item-127754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127754"><a href="https://dvdcover.com/statistics/">Statistics</a></li>
+                            <li id="menu-item-127755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127755"><a href="https://dvdcover.com/forum">Forum</a></li>
+                            <li id="menu-item-126011" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126011"><a href="https://dvdcover.com/members/">Members</a></li>
+                            <li id="menu-item-126010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126010"><a href="https://dvdcover.com/faq/">FAQ</a></li>
+                            <li id="menu-item-126012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126012"><a href="https://dvdcover.com/privacy-policy/">Privacy Policy</a></li>
+                            <li id="menu-item-126009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126009"><a href="https://dvdcover.com/copyright/">Copyright</a></li>
+                        </ul></div></div> </div>
+                </div>
+                <div class="container-cell">
+                    <h3 class="title-2">Follow Us</h3>
+                    <ul class="soclinks clearfix">
+                        <li><a href="https://www.facebook.com/freedvdcover/" class="icon-footer-fb" target="_blank">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>Copyright &copy; 2018 DVDCover.Com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="um_upload_single" style="display:none">
+</div><div id="um_view_photo" style="display:none">
+    <a href="#" data-action="um_remove_modal" class="um-modal-close"><i class="um-faicon-times"></i></a>
+    <div class="um-modal-body photo">
+        <div class="um-modal-photo">
+        </div>
+    </div>
+</div><div id="kpZNeFEdXdlL" class="CWgiqlQHxUrX" style="background:#dddddd;z-index:9999999; "></div> <script type="text/javascript">/* <![CDATA[ */var anOptions ={"anOptionChoice":"2","anOptionStats":"1","anOptionAdsSelectors":"","anOptionCookie":"1","anOptionCookieLife":"30","anPageRedirect":"","anPermalink":"undefined","anOptionModalEffect":"fadeAndPop","anOptionModalspeed":"350","anOptionModalclose":false,"anOptionModalOverlay":"rgba( 0,0,0,0.8 )","anAlternativeActivation":false,"anAlternativeElement":"","anAlternativeText":"<p><strong>AdBlock detected!<\/strong><\/p>\n<p>Please add www.dvdcover.com to your adblocking whitelist or disable your adblocking software.<\/p>\n","anAlternativeClone":"2","anAlternativeProperties":"","anOptionModalShowAfter":0,"anPageMD5":"","anSiteID":0,"modalHTML":"<div class=\"CWgiqlQHxUrX-default\">\n\t<h1 style=\"\">Adblocker detected! Please consider reading this notice.<\/h1>\n\t<p>We've detected that you are using AdBlock Plus or some other adblocking software which is preventing the page from fully loading.<\/p>\n<p>We don't have any banner, Flash, animation, obnoxious sound, or popup ad. We do not implement these annoying types of ads!<\/p>\n<p>We need money to operate the site, and almost all of it comes from our online advertising.<\/p>\n<p><strong>Please add <a title=\"DVDCover.Com\" href=\"https:\/\/dvdcover.com\" target=\"_blank\" rel=\"noopener\">dvdcover.com<\/a> to your ad blocking whitelist or disable your adblocking software.<\/strong><\/p>\n<\/div>\n"}/* ]]> */</script><div id="adsense" class="an-sponsored" style="position:absolute; z-index:-1; height:1px; width:1px; visibility: hidden; top: -1px; left: 0;"><img class="an-advert-banner" alt="sponsored" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></div>
+<div class='asp_hidden_data' id="asp_hidden_data" style="display: none !important;">
+    <svg style="position:absolute" height="0" width="0">
+        <filter id="aspblur">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+        </filter>
+    </svg>
+    <svg style="position:absolute" height="0" width="0">
+        <filter id="no_aspblur"></filter>
+    </svg>
+</div>
+<a id="inline" href="#arvlbdata" style="display: none;overflow:hidden;backgroud-color:blue;">Show</a>
+<div style="display:none">
+    <div id="arvlbdata" style="overflow:visible;width:400px;">
+        Like Us ! And we will never bother you again :) <div allowtransparency="true" style="overflow:hidden;width:400px;height:255px;" class="fb-page" data-href="https://www.facebook.com/freedvdcover" data-width="400" data-height="255" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+    </div>
+        <div style="padding-bottom:3px;padding-right:3px;text-align:right;display:block;">
+            <a href="#" onclick="arvlbfbloginner();" style="text-decoration:none;">Already a fan? </a>
+        </div>
+    </div>
+</div>
+<link rel='stylesheet' id='spr_style-css' href='https://dvdcover.com/wp-content/plugins/simple-rating/resources/spr_style.css?ver=4.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/um-online/assets/js/um-online.js?ver=4.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sticky_anything_engage = {"element":".banner-position-float","topspace":"65","minscreenwidth":"0","maxscreenwidth":"999999","zindex":"1","legacymode":"","dynamicmode":"","debugmode":"","pushup":"","adminbar":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=2.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ctcc_vars = {"expiry":"30","method":"1","version":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js?ver=2.3.0'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/modernizr.min.js?ver=2.8.3'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/spin.js?ver=2.3.2'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-mousewheel.js?ver=3.1.12'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-masonry.min.js?ver=4.2.0'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-imagesloaded.js?ver=4.1.2'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-selectbox.js?ver=0.2'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-clearinginput.js?ver=1.0'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-atooltip.min.js?ver=1.5'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-magnific-popup.js?ver=1.1.0'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-spin.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-jscrollpane.min.js?ver=2.0.21'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-finger.min.js?ver=0.1.0'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/jquery-flickerplate.min.js?ver=2.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pinthis_phpjs_option = {"arrows":"1","arrows_constraint":"","auto_flick":"1","auto_flick_delay":"10","block_text":"","dot_navigation":"1","dot_alignment":"center","flick_position":"1","tr_username":"Username","tr_password":"Password","tr_search":"Search"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/themes/pinthis/js/main.js?ver=1.6.6'></script>
+<script type='text/javascript' src='//dvdcover.com/wp-content/plugins/ajax-search-pro/js/nomin/photostack.js?ver=vV4g2v'></script>
+<script type='text/javascript' src='//dvdcover.com/wp-content/plugins/ajax-search-pro/js/min/chosen.jquery.min.js?ver=vV4g2v'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxsearchpro = {"ajaxurl":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php","backend_ajaxurl":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php","js_scope":"jQuery"};
+var ASP = {"ajaxurl":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php","backend_ajaxurl":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php","js_scope":"jQuery","asp_url":"https:\/\/dvdcover.com\/wp-content\/plugins\/ajax-search-pro\/","upload_url":"https:\/\/dvdcover.com\/wp-content\/uploads\/asp_upload\/","detect_ajax":"0","media_query":"vV4g2v","version":"4965","scrollbar":"1","css_loaded":"1","js_retain_popstate":"1","fix_duplicates":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//dvdcover.com/wp-content/plugins/ajax-search-pro/js/min/jquery.ajaxsearchpro-noui-isotope.min.js?ver=vV4g2v'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=2.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_object = {"nonce":"0596692186","ajaxurl":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/uploads/pkdJzfYWSwMf/HWkfQCcRSWMF.js?ver=2.2.3'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var um_scripts = {"ajaxurl":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php","fileupload":"https:\/\/dvdcover.com\/wp-content\/plugins\/ultimate-member\/core\/lib\/upload\/um-file-upload.php","imageupload":"https:\/\/dvdcover.com\/wp-content\/plugins\/ultimate-member\/core\/lib\/upload\/um-image-upload.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/ultimate-member/assets/js/um.min.js?ver=1.3.88'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-includes/js/wp-embed.min.js?ver=4.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var spr_ajax_object = {"ajax_url":"https:\/\/dvdcover.com\/wp-admin\/admin-ajax.php","scale":"5","spr_type":"ys","rating_working":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/simple-rating/resources/spr_script.js'></script>
+<script type='text/javascript' src='https://dvdcover.com/wp-includes/js/comment-reply.min.js?ver=4.9.2'></script>
+<script async="async" type='text/javascript' src='https://dvdcover.com/wp-content/plugins/akismet/_inc/form.js?ver=4.0.2'></script>
+<script type='text/javascript' data-cfasync="false" async="async" defer="defer" src='https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=1.33'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gglcptch = {"options":{"version":"v2","sitekey":"6LcjCfYSAAAAANPHFoHi8e3ydy9Bb0qiTzZ5zgiA","theme":"light","error":"<strong>Warning<\/strong>:&nbsp;More than one reCAPTCHA has been found in the current form. Please remove all unnecessary reCAPTCHA fields to make it work properly."},"vars":{"visibility":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dvdcover.com/wp-content/plugins/google-captcha/js/script.js?ver=1.33'></script>
+<script type="text/javascript">
+					jQuery(document).ready(function($){
+												if(!catapultReadCookie("catAccCookies")){ // If the cookie has not been set then show the bar
+							$("html").addClass("has-cookie-bar");
+							$("html").addClass("cookie-bar-bottom-bar");
+							$("html").addClass("cookie-bar-bar");
+													}
+																	});
+				</script>
+<div id="catapult-cookie-bar" class=""><div class="ctcc-inner "><span class="ctcc-left-side">This site uses cookies: <a class="ctcc-more-info-link" tabindex=0 target="_blank" href="https://dvdcover.com/privacy-policy/">Find out more.</a></span><span class="ctcc-right-side"><button id="catapultCookie" tabindex=0 onclick="catapultAcceptCookies();">Okay, thanks</button></span></div></div>
+<script type="text/javascript">jQuery( '#request' ).val( '' );</script>
+<script>var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"20015427"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el)})();</script><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type="text/javascript">var _qevents=_qevents||[];(function(){var elem=document.createElement('script');elem.src=(document.location.protocol=="https:"?"https://secure":"http://edge")+".quantserve.com/quant.js";elem.async=true;elem.type="text/javascript";var scpt=document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem,scpt)})();_qevents.push({qacct:"p-31iz6hfFutd16",labels:"Domain.dvdcover_com,DomainId.58771"});</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.dvdcover_com,DomainId.58771"border="0"height="1"width="1"alt="Quantcast"/></div></noscript>
+<script type='text/javascript' style='display:none;' async>
+    __ez.queue.addFile('edmonton.php', '//dvdcover.com/detroitchicago/edmonton.webp?a=a&cb=1&shcb=29', true, [], true, false, false, false);
+    __ez.queue.addFile('jellyfish.php', '//dvdcover.com/porpoiseant/jellyfish.webp?a=a&cb=1&shcb=29', false, [], true, false, false, false);
+</script>
+</body>
+</html>
