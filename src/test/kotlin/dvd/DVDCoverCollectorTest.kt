@@ -36,11 +36,11 @@ class DVDCoverCollectorTest {
         dvdCoverCollector.downloadCover(movie, "covers")
 
         val downloadFolder = Paths.get("covers").toAbsolutePath()
-        val listFiles = downloadFolder.toFile().listFiles()
-        val file = FileInputStream(listFiles[0])
         val expected = javaClass.classLoader.getResourceAsStream("mona lisa smile.jpg")
 
-        assertBinaryContentIsTheSame(file, expected)
+        val listFiles = downloadFolder.toFile().listFiles()
+        assertBinaryContentIsTheSame(FileInputStream(listFiles[0]), expected)
+
         for (file in listFiles) file.delete()
         Files.deleteIfExists(downloadFolder)
     }
