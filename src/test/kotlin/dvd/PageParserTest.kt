@@ -1,3 +1,5 @@
+package dvd
+
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
 import org.junit.Test
@@ -12,7 +14,7 @@ class PageParserTest {
         val pageParser = PageParser()
         val linkAndTitle = pageParser.linkAndTitle(toParse)
 
-        assertThat(linkAndTitle, equalTo(LinkAndTitle(URI("https://dvdcover.com/avatar-2009-r1-dvd-cover/"), "Avatar (2009) R1 DVD Cover")))
+        assertThat(linkAndTitle!!, equalTo(LinkAndTitle(URI("https://dvdcover.com/avatar-2009-r1-dvd-cover/"), "Avatar (2009) R1 DVD Cover")))
     }
 
     @Test fun `can get image link`() {

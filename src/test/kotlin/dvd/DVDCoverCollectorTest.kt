@@ -1,3 +1,5 @@
+package dvd
+
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
 import junit.framework.Assert.fail
@@ -63,5 +65,14 @@ class DVDCoverCollectorTest {
             }
         }
         return true
+    }
+
+    @Test
+    fun `main`() {
+        val dvdCoverCollector = DVDCoverCollector()
+        val input = javaClass.classLoader.getResourceAsStream("movie.txt")
+        val movies = dvdCoverCollector.readMoviesFromFile(input)
+
+        movies.forEach { dvdCoverCollector.downloadCover(it, "covers") }
     }
 }
